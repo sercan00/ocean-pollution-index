@@ -1,0 +1,1054 @@
+m49,VariableGroup,Subgroup,Variable,Area,Year,Value,Unit,Symbol,IsAggregate
+8,Water use,Wastewater,Produced municipal wastewater,Albania,2021,0.222,10^9 m3/year,A,false
+8,Water use,Wastewater,Produced municipal wastewater,Albania,2022,0.221,10^9 m3/year,A,false
+8,Water use,Wastewater,Produced municipal wastewater,Albania,2023,0.226,10^9 m3/year,A,false
+12,Water use,Wastewater,Produced municipal wastewater,Algeria,2021,0.018206,10^9 m3/year,X,false
+12,Water use,Wastewater,Produced municipal wastewater,Algeria,2022,0.01724,10^9 m3/year,X,false
+12,Water use,Wastewater,Produced municipal wastewater,Algeria,2023,0.01724,10^9 m3/year,I,false
+20,Water use,Wastewater,Produced municipal wastewater,Andorra,2021,0.018206,10^9 m3/year,A,false
+20,Water use,Wastewater,Produced municipal wastewater,Andorra,2022,0.01724,10^9 m3/year,A,false
+20,Water use,Wastewater,Produced municipal wastewater,Andorra,2023,0.01667,10^9 m3/year,A,false
+32,Water use,Wastewater,Produced municipal wastewater,Argentina,2021,2.458,10^9 m3/year,I,false
+32,Water use,Wastewater,Produced municipal wastewater,Argentina,2022,2.458,10^9 m3/year,I,false
+32,Water use,Wastewater,Produced municipal wastewater,Argentina,2023,2.458,10^9 m3/year,I,false
+51,Water use,Wastewater,Produced municipal wastewater,Armenia,2021,0.159,10^9 m3/year,A,false
+51,Water use,Wastewater,Produced municipal wastewater,Armenia,2022,0.128,10^9 m3/year,A,false
+51,Water use,Wastewater,Produced municipal wastewater,Armenia,2023,0.128,10^9 m3/year,I,false
+36,Water use,Wastewater,Produced municipal wastewater,Australia,2021,2.094,10^9 m3/year,I,false
+36,Water use,Wastewater,Produced municipal wastewater,Australia,2022,2.094,10^9 m3/year,I,false
+36,Water use,Wastewater,Produced municipal wastewater,Australia,2023,2.094,10^9 m3/year,I,false
+53,Water use,Wastewater,Produced municipal wastewater,Australia and New Zealand,2021,2.094,10^9 m3/year,E,true
+53,Water use,Wastewater,Produced municipal wastewater,Australia and New Zealand,2022,2.094,10^9 m3/year,E,true
+53,Water use,Wastewater,Produced municipal wastewater,Australia and New Zealand,2023,2.094,10^9 m3/year,E,true
+40,Water use,Wastewater,Produced municipal wastewater,Austria,2021,1.07395,10^9 m3/year,A,false
+40,Water use,Wastewater,Produced municipal wastewater,Austria,2022,1.07395,10^9 m3/year,I,false
+40,Water use,Wastewater,Produced municipal wastewater,Austria,2023,1.07395,10^9 m3/year,I,false
+31,Water use,Wastewater,Produced municipal wastewater,Azerbaijan,2021,1.2107,10^9 m3/year,X,false
+31,Water use,Wastewater,Produced municipal wastewater,Azerbaijan,2022,1.191,10^9 m3/year,X,false
+31,Water use,Wastewater,Produced municipal wastewater,Azerbaijan,2023,1.191,10^9 m3/year,I,false
+48,Water use,Wastewater,Produced municipal wastewater,Bahrain,2021,0.1695425,10^9 m3/year,X,false
+48,Water use,Wastewater,Produced municipal wastewater,Bahrain,2022,0.1695425,10^9 m3/year,I,false
+48,Water use,Wastewater,Produced municipal wastewater,Bahrain,2023,0.1695425,10^9 m3/year,I,false
+50,Water use,Wastewater,Produced municipal wastewater,Bangladesh,2021,6.044193125,10^9 m3/year,X,false
+50,Water use,Wastewater,Produced municipal wastewater,Bangladesh,2022,6.044193125,10^9 m3/year,I,false
+50,Water use,Wastewater,Produced municipal wastewater,Bangladesh,2023,6.044193125,10^9 m3/year,I,false
+52,Water use,Wastewater,Produced municipal wastewater,Barbados,2021,0.011,10^9 m3/year,I,false
+52,Water use,Wastewater,Produced municipal wastewater,Barbados,2022,0.011,10^9 m3/year,I,false
+52,Water use,Wastewater,Produced municipal wastewater,Barbados,2023,0.011,10^9 m3/year,I,false
+112,Water use,Wastewater,Produced municipal wastewater,Belarus,2021,0.641,10^9 m3/year,A,false
+112,Water use,Wastewater,Produced municipal wastewater,Belarus,2022,0.643,10^9 m3/year,A,false
+112,Water use,Wastewater,Produced municipal wastewater,Belarus,2023,0.645,10^9 m3/year,A,false
+56,Water use,Wastewater,Produced municipal wastewater,Belgium,2021,0.871,10^9 m3/year,I,false
+56,Water use,Wastewater,Produced municipal wastewater,Belgium,2022,0.871,10^9 m3/year,I,false
+56,Water use,Wastewater,Produced municipal wastewater,Belgium,2023,0.871,10^9 m3/year,I,false
+84,Water use,Wastewater,Produced municipal wastewater,Belize,2021,0.002,10^9 m3/year,I,false
+84,Water use,Wastewater,Produced municipal wastewater,Belize,2022,0.002,10^9 m3/year,I,false
+84,Water use,Wastewater,Produced municipal wastewater,Belize,2023,0.002,10^9 m3/year,I,false
+64,Water use,Wastewater,Produced municipal wastewater,Bhutan,2021,0.0039,10^9 m3/year,I,false
+64,Water use,Wastewater,Produced municipal wastewater,Bhutan,2022,0.0039,10^9 m3/year,I,false
+64,Water use,Wastewater,Produced municipal wastewater,Bhutan,2023,0.0039,10^9 m3/year,I,false
+68,Water use,Wastewater,Produced municipal wastewater,Bolivia (Plurinational State of),2021,0.157,10^9 m3/year,I,false
+68,Water use,Wastewater,Produced municipal wastewater,Bolivia (Plurinational State of),2022,0.157,10^9 m3/year,I,false
+68,Water use,Wastewater,Produced municipal wastewater,Bolivia (Plurinational State of),2023,0.157,10^9 m3/year,I,false
+70,Water use,Wastewater,Produced municipal wastewater,Bosnia and Herzegovina,2021,0.0802,10^9 m3/year,A,false
+70,Water use,Wastewater,Produced municipal wastewater,Bosnia and Herzegovina,2022,0.0827,10^9 m3/year,A,false
+70,Water use,Wastewater,Produced municipal wastewater,Bosnia and Herzegovina,2023,0.0827,10^9 m3/year,A,false
+72,Water use,Wastewater,Produced municipal wastewater,Botswana,2021,0.0401,10^9 m3/year,A,false
+72,Water use,Wastewater,Produced municipal wastewater,Botswana,2022,0.04005,10^9 m3/year,I,false
+72,Water use,Wastewater,Produced municipal wastewater,Botswana,2023,0.04,10^9 m3/year,A,false
+76,Water use,Wastewater,Produced municipal wastewater,Brazil,2021,10.99,10^9 m3/year,A,false
+76,Water use,Wastewater,Produced municipal wastewater,Brazil,2022,9.145465253,10^9 m3/year,A,false
+76,Water use,Wastewater,Produced municipal wastewater,Brazil,2023,9.745773665,10^9 m3/year,A,false
+100,Water use,Wastewater,Produced municipal wastewater,Bulgaria,2021,0.6,10^9 m3/year,A,false
+100,Water use,Wastewater,Produced municipal wastewater,Bulgaria,2022,0.587,10^9 m3/year,A,false
+100,Water use,Wastewater,Produced municipal wastewater,Bulgaria,2023,0.588,10^9 m3/year,A,false
+854,Water use,Wastewater,Produced municipal wastewater,Burkina Faso,2021,0.0487,10^9 m3/year,I,false
+854,Water use,Wastewater,Produced municipal wastewater,Burkina Faso,2022,0.0487,10^9 m3/year,I,false
+854,Water use,Wastewater,Produced municipal wastewater,Burkina Faso,2023,0.0487,10^9 m3/year,I,false
+132,Water use,Wastewater,Produced municipal wastewater,Cabo Verde,2021,0.01358334,10^9 m3/year,A,false
+132,Water use,Wastewater,Produced municipal wastewater,Cabo Verde,2022,0.02841915,10^9 m3/year,A,false
+132,Water use,Wastewater,Produced municipal wastewater,Cabo Verde,2023,0.02841915,10^9 m3/year,I,false
+120,Water use,Wastewater,Produced municipal wastewater,Cameroon,2021,0.0662,10^9 m3/year,I,false
+120,Water use,Wastewater,Produced municipal wastewater,Cameroon,2022,0.0662,10^9 m3/year,I,false
+120,Water use,Wastewater,Produced municipal wastewater,Cameroon,2023,0.0662,10^9 m3/year,I,false
+124,Water use,Wastewater,Produced municipal wastewater,Canada,2021,5.478,10^9 m3/year,A,false
+124,Water use,Wastewater,Produced municipal wastewater,Canada,2022,5.795,10^9 m3/year,A,false
+124,Water use,Wastewater,Produced municipal wastewater,Canada,2023,6.031,10^9 m3/year,A,false
+143,Water use,Wastewater,Produced municipal wastewater,Central Asia,2021,13.0649556,10^9 m3/year,E,true
+143,Water use,Wastewater,Produced municipal wastewater,Central Asia,2022,13.4439556,10^9 m3/year,E,true
+143,Water use,Wastewater,Produced municipal wastewater,Central Asia,2023,12.9939556,10^9 m3/year,E,true
+62,Water use,Wastewater,Produced municipal wastewater,Central and Southern Asia,2021,41.637848901,10^9 m3/year,E,true
+62,Water use,Wastewater,Produced municipal wastewater,Central and Southern Asia,2022,42.292848725,10^9 m3/year,E,true
+62,Water use,Wastewater,Produced municipal wastewater,Central and Southern Asia,2023,41.885848725,10^9 m3/year,E,true
+152,Water use,Wastewater,Produced municipal wastewater,Chile,2021,1.112,10^9 m3/year,I,false
+152,Water use,Wastewater,Produced municipal wastewater,Chile,2022,1.112,10^9 m3/year,I,false
+152,Water use,Wastewater,Produced municipal wastewater,Chile,2023,1.112,10^9 m3/year,I,false
+156,Water use,Wastewater,Produced municipal wastewater,China,2021,48.51,10^9 m3/year,I,false
+156,Water use,Wastewater,Produced municipal wastewater,China,2022,48.51,10^9 m3/year,I,false
+156,Water use,Wastewater,Produced municipal wastewater,China,2023,48.51,10^9 m3/year,I,false
+170,Water use,Wastewater,Produced municipal wastewater,Colombia,2021,1.630958509,10^9 m3/year,A,false
+170,Water use,Wastewater,Produced municipal wastewater,Colombia,2022,1.647555671,10^9 m3/year,A,false
+170,Water use,Wastewater,Produced municipal wastewater,Colombia,2023,1.782,10^9 m3/year,A,false
+188,Water use,Wastewater,Produced municipal wastewater,Costa Rica,2021,0.60093965,10^9 m3/year,I,false
+188,Water use,Wastewater,Produced municipal wastewater,Costa Rica,2022,0.60093965,10^9 m3/year,I,false
+188,Water use,Wastewater,Produced municipal wastewater,Costa Rica,2023,0.60093965,10^9 m3/year,I,false
+191,Water use,Wastewater,Produced municipal wastewater,Croatia,2021,0.363,10^9 m3/year,A,false
+191,Water use,Wastewater,Produced municipal wastewater,Croatia,2022,0.355,10^9 m3/year,A,false
+191,Water use,Wastewater,Produced municipal wastewater,Croatia,2023,0.36,10^9 m3/year,A,false
+192,Water use,Wastewater,Produced municipal wastewater,Cuba,2021,2.519838565,10^9 m3/year,I,false
+192,Water use,Wastewater,Produced municipal wastewater,Cuba,2022,2.519838565,10^9 m3/year,I,false
+192,Water use,Wastewater,Produced municipal wastewater,Cuba,2023,2.519838565,10^9 m3/year,I,false
+196,Water use,Wastewater,Produced municipal wastewater,Cyprus,2021,0.03544,10^9 m3/year,A,false
+196,Water use,Wastewater,Produced municipal wastewater,Cyprus,2022,0.056,10^9 m3/year,A,false
+196,Water use,Wastewater,Produced municipal wastewater,Cyprus,2023,0.056,10^9 m3/year,A,false
+203,Water use,Wastewater,Produced municipal wastewater,Czechia,2021,0.91,10^9 m3/year,A,false
+203,Water use,Wastewater,Produced municipal wastewater,Czechia,2022,0.818,10^9 m3/year,A,false
+203,Water use,Wastewater,Produced municipal wastewater,Czechia,2023,0.887,10^9 m3/year,A,false
+208,Water use,Wastewater,Produced municipal wastewater,Denmark,2021,0.35288,10^9 m3/year,A,false
+208,Water use,Wastewater,Produced municipal wastewater,Denmark,2022,0.345164,10^9 m3/year,A,false
+208,Water use,Wastewater,Produced municipal wastewater,Denmark,2023,0.340468,10^9 m3/year,A,false
+214,Water use,Wastewater,Produced municipal wastewater,Dominican Republic,2021,0.941,10^9 m3/year,I,false
+214,Water use,Wastewater,Produced municipal wastewater,Dominican Republic,2022,0.941,10^9 m3/year,I,false
+214,Water use,Wastewater,Produced municipal wastewater,Dominican Republic,2023,0.941,10^9 m3/year,I,false
+30,Water use,Wastewater,Produced municipal wastewater,Eastern Asia,2021,73.424,10^9 m3/year,E,true
+30,Water use,Wastewater,Produced municipal wastewater,Eastern Asia,2022,73.424,10^9 m3/year,E,true
+30,Water use,Wastewater,Produced municipal wastewater,Eastern Asia,2023,73.424,10^9 m3/year,E,true
+753,Water use,Wastewater,Produced municipal wastewater,Eastern and South-Eastern Asia,2021,98.872128837,10^9 m3/year,E,true
+753,Water use,Wastewater,Produced municipal wastewater,Eastern and South-Eastern Asia,2022,98.872128837,10^9 m3/year,E,true
+753,Water use,Wastewater,Produced municipal wastewater,Eastern and South-Eastern Asia,2023,98.872128837,10^9 m3/year,E,true
+218,Water use,Wastewater,Produced municipal wastewater,Ecuador,2021,0.4575,10^9 m3/year,I,false
+218,Water use,Wastewater,Produced municipal wastewater,Ecuador,2022,0.4575,10^9 m3/year,I,false
+218,Water use,Wastewater,Produced municipal wastewater,Ecuador,2023,0.4575,10^9 m3/year,I,false
+818,Water use,Wastewater,Produced municipal wastewater,Egypt,2021,11.899,10^9 m3/year,I,false
+818,Water use,Wastewater,Produced municipal wastewater,Egypt,2022,11.899,10^9 m3/year,I,false
+818,Water use,Wastewater,Produced municipal wastewater,Egypt,2023,11.899,10^9 m3/year,I,false
+222,Water use,Wastewater,Produced municipal wastewater,El Salvador,2021,0.2884577,10^9 m3/year,I,false
+222,Water use,Wastewater,Produced municipal wastewater,El Salvador,2022,0.3492436,10^9 m3/year,A,false
+222,Water use,Wastewater,Produced municipal wastewater,El Salvador,2023,0.36209,10^9 m3/year,A,false
+232,Water use,Wastewater,Produced municipal wastewater,Eritrea,2021,0.018,10^9 m3/year,I,false
+232,Water use,Wastewater,Produced municipal wastewater,Eritrea,2022,0.018,10^9 m3/year,I,false
+232,Water use,Wastewater,Produced municipal wastewater,Eritrea,2023,0.018,10^9 m3/year,I,false
+233,Water use,Wastewater,Produced municipal wastewater,Estonia,2021,0.098127083,10^9 m3/year,A,false
+233,Water use,Wastewater,Produced municipal wastewater,Estonia,2022,0.09495961,10^9 m3/year,A,false
+233,Water use,Wastewater,Produced municipal wastewater,Estonia,2023,0.106193688,10^9 m3/year,A,false
+748,Water use,Wastewater,Produced municipal wastewater,Eswatini,2021,0.0132,10^9 m3/year,I,false
+748,Water use,Wastewater,Produced municipal wastewater,Eswatini,2022,0.0132,10^9 m3/year,I,false
+748,Water use,Wastewater,Produced municipal wastewater,Eswatini,2023,0.0132,10^9 m3/year,I,false
+150,Water use,Wastewater,Produced municipal wastewater,Europe,2021,82.575860852,10^9 m3/year,E,true
+150,Water use,Wastewater,Produced municipal wastewater,Europe,2022,82.310411914,10^9 m3/year,E,true
+150,Water use,Wastewater,Produced municipal wastewater,Europe,2023,84.203786051,10^9 m3/year,E,true
+513,Water use,Wastewater,Produced municipal wastewater,Europe and Northern America,2021,148.467226152,10^9 m3/year,E,true
+513,Water use,Wastewater,Produced municipal wastewater,Europe and Northern America,2022,148.518777214,10^9 m3/year,E,true
+513,Water use,Wastewater,Produced municipal wastewater,Europe and Northern America,2023,150.648151351,10^9 m3/year,E,true
+246,Water use,Wastewater,Produced municipal wastewater,Finland,2021,0.5,10^9 m3/year,I,false
+246,Water use,Wastewater,Produced municipal wastewater,Finland,2022,0.5,10^9 m3/year,I,false
+246,Water use,Wastewater,Produced municipal wastewater,Finland,2023,0.5,10^9 m3/year,I,false
+250,Water use,Wastewater,Produced municipal wastewater,France,2021,5.118886655,10^9 m3/year,I,false
+250,Water use,Wastewater,Produced municipal wastewater,France,2022,5.118886655,10^9 m3/year,I,false
+250,Water use,Wastewater,Produced municipal wastewater,France,2023,5.118886655,10^9 m3/year,I,false
+268,Water use,Wastewater,Produced municipal wastewater,Georgia,2021,0.22186,10^9 m3/year,A,false
+268,Water use,Wastewater,Produced municipal wastewater,Georgia,2022,0.22471,10^9 m3/year,A,false
+268,Water use,Wastewater,Produced municipal wastewater,Georgia,2023,0.22471,10^9 m3/year,I,false
+276,Water use,Wastewater,Produced municipal wastewater,Germany,2021,7.977757142,10^9 m3/year,A,false
+276,Water use,Wastewater,Produced municipal wastewater,Germany,2022,7.755172,10^9 m3/year,A,false
+276,Water use,Wastewater,Produced municipal wastewater,Germany,2023,7.755172,10^9 m3/year,I,false
+288,Water use,Wastewater,Produced municipal wastewater,Ghana,2021,0.28,10^9 m3/year,I,false
+288,Water use,Wastewater,Produced municipal wastewater,Ghana,2022,0.28,10^9 m3/year,I,false
+288,Water use,Wastewater,Produced municipal wastewater,Ghana,2023,0.28,10^9 m3/year,I,false
+308,Water use,Wastewater,Produced municipal wastewater,Grenada,2021,0.011,10^9 m3/year,I,false
+308,Water use,Wastewater,Produced municipal wastewater,Grenada,2022,0.011,10^9 m3/year,I,false
+308,Water use,Wastewater,Produced municipal wastewater,Grenada,2023,0.011,10^9 m3/year,I,false
+320,Water use,Wastewater,Produced municipal wastewater,Guatemala,2021,0.668,10^9 m3/year,I,false
+320,Water use,Wastewater,Produced municipal wastewater,Guatemala,2022,0.668,10^9 m3/year,I,false
+320,Water use,Wastewater,Produced municipal wastewater,Guatemala,2023,0.668,10^9 m3/year,I,false
+348,Water use,Wastewater,Produced municipal wastewater,Hungary,2021,0.594838663,10^9 m3/year,I,false
+348,Water use,Wastewater,Produced municipal wastewater,Hungary,2022,0.595941027,10^9 m3/year,I,false
+348,Water use,Wastewater,Produced municipal wastewater,Hungary,2023,0.59704339,10^9 m3/year,A,false
+356,Water use,Wastewater,Produced municipal wastewater,India,2021,15.45,10^9 m3/year,I,false
+356,Water use,Wastewater,Produced municipal wastewater,India,2022,15.45,10^9 m3/year,I,false
+356,Water use,Wastewater,Produced municipal wastewater,India,2023,15.45,10^9 m3/year,I,false
+360,Water use,Wastewater,Produced municipal wastewater,Indonesia,2021,14.29,10^9 m3/year,I,false
+360,Water use,Wastewater,Produced municipal wastewater,Indonesia,2022,14.29,10^9 m3/year,I,false
+360,Water use,Wastewater,Produced municipal wastewater,Indonesia,2023,14.29,10^9 m3/year,I,false
+364,Water use,Wastewater,Produced municipal wastewater,Iran (Islamic Republic of),2021,3.893000176,10^9 m3/year,A,false
+364,Water use,Wastewater,Produced municipal wastewater,Iran (Islamic Republic of),2022,4.169,10^9 m3/year,A,false
+364,Water use,Wastewater,Produced municipal wastewater,Iran (Islamic Republic of),2023,4.212,10^9 m3/year,A,false
+368,Water use,Wastewater,Produced municipal wastewater,Iraq,2021,3.867,10^9 m3/year,A,false
+368,Water use,Wastewater,Produced municipal wastewater,Iraq,2022,3.806,10^9 m3/year,A,false
+368,Water use,Wastewater,Produced municipal wastewater,Iraq,2023,3.806,10^9 m3/year,I,false
+372,Water use,Wastewater,Produced municipal wastewater,Ireland,2021,0.783,10^9 m3/year,I,false
+372,Water use,Wastewater,Produced municipal wastewater,Ireland,2022,0.783,10^9 m3/year,I,false
+372,Water use,Wastewater,Produced municipal wastewater,Ireland,2023,0.783,10^9 m3/year,I,false
+376,Water use,Wastewater,Produced municipal wastewater,Israel,2021,0.570114,10^9 m3/year,A,false
+376,Water use,Wastewater,Produced municipal wastewater,Israel,2022,0.5891178,10^9 m3/year,A,false
+376,Water use,Wastewater,Produced municipal wastewater,Israel,2023,0.59371872,10^9 m3/year,A,false
+380,Water use,Wastewater,Produced municipal wastewater,Italy,2021,3.926,10^9 m3/year,I,false
+380,Water use,Wastewater,Produced municipal wastewater,Italy,2022,3.926,10^9 m3/year,I,false
+380,Water use,Wastewater,Produced municipal wastewater,Italy,2023,3.926,10^9 m3/year,I,false
+392,Water use,Wastewater,Produced municipal wastewater,Japan,2021,16.93,10^9 m3/year,I,false
+392,Water use,Wastewater,Produced municipal wastewater,Japan,2022,16.93,10^9 m3/year,I,false
+392,Water use,Wastewater,Produced municipal wastewater,Japan,2023,16.93,10^9 m3/year,I,false
+400,Water use,Wastewater,Produced municipal wastewater,Jordan,2021,0.1807,10^9 m3/year,I,false
+400,Water use,Wastewater,Produced municipal wastewater,Jordan,2022,0.1807,10^9 m3/year,I,false
+400,Water use,Wastewater,Produced municipal wastewater,Jordan,2023,0.1807,10^9 m3/year,I,false
+398,Water use,Wastewater,Produced municipal wastewater,Kazakhstan,2021,5.483,10^9 m3/year,A,false
+398,Water use,Wastewater,Produced municipal wastewater,Kazakhstan,2022,5.862,10^9 m3/year,A,false
+398,Water use,Wastewater,Produced municipal wastewater,Kazakhstan,2023,5.412,10^9 m3/year,A,false
+404,Water use,Wastewater,Produced municipal wastewater,Kenya,2021,1.775894835,10^9 m3/year,I,false
+404,Water use,Wastewater,Produced municipal wastewater,Kenya,2022,1.775894835,10^9 m3/year,I,false
+404,Water use,Wastewater,Produced municipal wastewater,Kenya,2023,1.775894835,10^9 m3/year,I,false
+414,Water use,Wastewater,Produced municipal wastewater,Kuwait,2021,0.292,10^9 m3/year,I,false
+414,Water use,Wastewater,Produced municipal wastewater,Kuwait,2022,0.292,10^9 m3/year,I,false
+414,Water use,Wastewater,Produced municipal wastewater,Kuwait,2023,0.292,10^9 m3/year,I,false
+417,Water use,Wastewater,Produced municipal wastewater,Kyrgyzstan,2021,0.0658,10^9 m3/year,I,false
+417,Water use,Wastewater,Produced municipal wastewater,Kyrgyzstan,2022,0.0658,10^9 m3/year,I,false
+417,Water use,Wastewater,Produced municipal wastewater,Kyrgyzstan,2023,0.0658,10^9 m3/year,I,false
+432,Water use,Wastewater,Produced municipal wastewater,Land Locked Developing Countries,2021,16.374542392,10^9 m3/year,E,true
+432,Water use,Wastewater,Produced municipal wastewater,Land Locked Developing Countries,2022,16.702392392,10^9 m3/year,E,true
+432,Water use,Wastewater,Produced municipal wastewater,Land Locked Developing Countries,2023,16.254712392,10^9 m3/year,E,true
+418,Water use,Wastewater,Produced municipal wastewater,Lao People's Democratic Republic,2021,0.0836,10^9 m3/year,I,false
+418,Water use,Wastewater,Produced municipal wastewater,Lao People's Democratic Republic,2022,0.0836,10^9 m3/year,I,false
+418,Water use,Wastewater,Produced municipal wastewater,Lao People's Democratic Republic,2023,0.0836,10^9 m3/year,I,false
+419,Water use,Wastewater,Produced municipal wastewater,Latin America and the Caribbean,2021,36.023859146,10^9 m3/year,E,true
+419,Water use,Wastewater,Produced municipal wastewater,Latin America and the Caribbean,2022,34.298707461,10^9 m3/year,E,true
+419,Water use,Wastewater,Produced municipal wastewater,Latin America and the Caribbean,2023,34.981306602,10^9 m3/year,E,true
+428,Water use,Wastewater,Produced municipal wastewater,Latvia,2021,0.103136,10^9 m3/year,A,false
+428,Water use,Wastewater,Produced municipal wastewater,Latvia,2022,0.105074,10^9 m3/year,A,false
+428,Water use,Wastewater,Produced municipal wastewater,Latvia,2023,0.110682,10^9 m3/year,A,false
+199,Water use,Wastewater,Produced municipal wastewater,Least Developed Countries,2021,7.390173125,10^9 m3/year,E,true
+199,Water use,Wastewater,Produced municipal wastewater,Least Developed Countries,2022,7.395713125,10^9 m3/year,E,true
+199,Water use,Wastewater,Produced municipal wastewater,Least Developed Countries,2023,7.402043125,10^9 m3/year,E,true
+422,Water use,Wastewater,Produced municipal wastewater,Lebanon,2021,0.31,10^9 m3/year,I,false
+422,Water use,Wastewater,Produced municipal wastewater,Lebanon,2022,0.31,10^9 m3/year,I,false
+422,Water use,Wastewater,Produced municipal wastewater,Lebanon,2023,0.31,10^9 m3/year,I,false
+434,Water use,Wastewater,Produced municipal wastewater,Libya,2021,0.504,10^9 m3/year,I,false
+434,Water use,Wastewater,Produced municipal wastewater,Libya,2022,0.504,10^9 m3/year,I,false
+434,Water use,Wastewater,Produced municipal wastewater,Libya,2023,0.504,10^9 m3/year,I,false
+440,Water use,Wastewater,Produced municipal wastewater,Lithuania,2021,0.22392,10^9 m3/year,I,false
+440,Water use,Wastewater,Produced municipal wastewater,Lithuania,2022,0.22392,10^9 m3/year,I,false
+440,Water use,Wastewater,Produced municipal wastewater,Lithuania,2023,0.22392,10^9 m3/year,I,false
+442,Water use,Wastewater,Produced municipal wastewater,Luxembourg,2021,0.0208,10^9 m3/year,I,false
+442,Water use,Wastewater,Produced municipal wastewater,Luxembourg,2022,0.0208,10^9 m3/year,I,false
+442,Water use,Wastewater,Produced municipal wastewater,Luxembourg,2023,0.0208,10^9 m3/year,I,false
+450,Water use,Wastewater,Produced municipal wastewater,Madagascar,2021,0.1089,10^9 m3/year,A,false
+450,Water use,Wastewater,Produced municipal wastewater,Madagascar,2022,0.11484,10^9 m3/year,A,false
+450,Water use,Wastewater,Produced municipal wastewater,Madagascar,2023,0.1188,10^9 m3/year,A,false
+458,Water use,Wastewater,Produced municipal wastewater,Malaysia,2021,2.222528837,10^9 m3/year,I,false
+458,Water use,Wastewater,Produced municipal wastewater,Malaysia,2022,2.222528837,10^9 m3/year,I,false
+458,Water use,Wastewater,Produced municipal wastewater,Malaysia,2023,2.222528837,10^9 m3/year,I,false
+462,Water use,Wastewater,Produced municipal wastewater,Maldives,2021,0.0037,10^9 m3/year,I,false
+462,Water use,Wastewater,Produced municipal wastewater,Maldives,2022,0.0037,10^9 m3/year,I,false
+462,Water use,Wastewater,Produced municipal wastewater,Maldives,2023,0.0037,10^9 m3/year,I,false
+466,Water use,Wastewater,Produced municipal wastewater,Mali,2021,0.0967,10^9 m3/year,I,false
+466,Water use,Wastewater,Produced municipal wastewater,Mali,2022,0.0967,10^9 m3/year,I,false
+466,Water use,Wastewater,Produced municipal wastewater,Mali,2023,0.0967,10^9 m3/year,I,false
+470,Water use,Wastewater,Produced municipal wastewater,Malta,2021,0.026855724,10^9 m3/year,A,false
+470,Water use,Wastewater,Produced municipal wastewater,Malta,2022,0.027726726,10^9 m3/year,A,false
+470,Water use,Wastewater,Produced municipal wastewater,Malta,2023,0.028922422,10^9 m3/year,A,false
+478,Water use,Wastewater,Produced municipal wastewater,Mauritania,2021,0.0214,10^9 m3/year,I,false
+478,Water use,Wastewater,Produced municipal wastewater,Mauritania,2022,0.0214,10^9 m3/year,I,false
+478,Water use,Wastewater,Produced municipal wastewater,Mauritania,2023,0.0214,10^9 m3/year,I,false
+480,Water use,Wastewater,Produced municipal wastewater,Mauritius,2021,0.0006,10^9 m3/year,I,false
+480,Water use,Wastewater,Produced municipal wastewater,Mauritius,2022,0.0006,10^9 m3/year,I,false
+480,Water use,Wastewater,Produced municipal wastewater,Mauritius,2023,0.0006,10^9 m3/year,I,false
+484,Water use,Wastewater,Produced municipal wastewater,Mexico,2021,8.84,10^9 m3/year,A,false
+484,Water use,Wastewater,Produced municipal wastewater,Mexico,2022,8.89,10^9 m3/year,A,false
+484,Water use,Wastewater,Produced municipal wastewater,Mexico,2023,8.82,10^9 m3/year,A,false
+492,Water use,Wastewater,Produced municipal wastewater,Monaco,2021,0.005887085,10^9 m3/year,X,false
+492,Water use,Wastewater,Produced municipal wastewater,Monaco,2022,0.005561396,10^9 m3/year,X,false
+492,Water use,Wastewater,Produced municipal wastewater,Monaco,2023,0.005561396,10^9 m3/year,I,false
+496,Water use,Wastewater,Produced municipal wastewater,Mongolia,2021,0.146,10^9 m3/year,I,false
+496,Water use,Wastewater,Produced municipal wastewater,Mongolia,2022,0.146,10^9 m3/year,I,false
+496,Water use,Wastewater,Produced municipal wastewater,Mongolia,2023,0.146,10^9 m3/year,I,false
+499,Water use,Wastewater,Produced municipal wastewater,Montenegro,2021,0.031,10^9 m3/year,I,false
+499,Water use,Wastewater,Produced municipal wastewater,Montenegro,2022,0.031,10^9 m3/year,I,false
+499,Water use,Wastewater,Produced municipal wastewater,Montenegro,2023,0.031,10^9 m3/year,I,false
+504,Water use,Wastewater,Produced municipal wastewater,Morocco,2021,0.750002,10^9 m3/year,I,false
+504,Water use,Wastewater,Produced municipal wastewater,Morocco,2022,0.750002,10^9 m3/year,I,false
+504,Water use,Wastewater,Produced municipal wastewater,Morocco,2023,0.750002,10^9 m3/year,I,false
+516,Water use,Wastewater,Produced municipal wastewater,Namibia,2021,0.0195,10^9 m3/year,I,false
+516,Water use,Wastewater,Produced municipal wastewater,Namibia,2022,0.0195,10^9 m3/year,I,false
+516,Water use,Wastewater,Produced municipal wastewater,Namibia,2023,0.0195,10^9 m3/year,I,false
+528,Water use,Wastewater,Produced municipal wastewater,Netherlands (Kingdom of the),2021,1.9639,10^9 m3/year,A,false
+528,Water use,Wastewater,Produced municipal wastewater,Netherlands (Kingdom of the),2022,1.8078,10^9 m3/year,A,false
+528,Water use,Wastewater,Produced municipal wastewater,Netherlands (Kingdom of the),2023,2.2453,10^9 m3/year,A,false
+558,Water use,Wastewater,Produced municipal wastewater,Nicaragua,2021,0.304,10^9 m3/year,I,false
+558,Water use,Wastewater,Produced municipal wastewater,Nicaragua,2022,0.304,10^9 m3/year,I,false
+558,Water use,Wastewater,Produced municipal wastewater,Nicaragua,2023,0.304,10^9 m3/year,I,false
+562,Water use,Wastewater,Produced municipal wastewater,Niger,2021,0.0396,10^9 m3/year,I,false
+562,Water use,Wastewater,Produced municipal wastewater,Niger,2022,0.0396,10^9 m3/year,I,false
+562,Water use,Wastewater,Produced municipal wastewater,Niger,2023,0.0396,10^9 m3/year,I,false
+807,Water use,Wastewater,Produced municipal wastewater,North Macedonia,2021,0.0412,10^9 m3/year,I,false
+807,Water use,Wastewater,Produced municipal wastewater,North Macedonia,2022,0.0412,10^9 m3/year,I,false
+807,Water use,Wastewater,Produced municipal wastewater,North Macedonia,2023,0.0412,10^9 m3/year,I,false
+15,Water use,Wastewater,Produced municipal wastewater,Northern Africa,2021,14.070908,10^9 m3/year,E,true
+15,Water use,Wastewater,Produced municipal wastewater,Northern Africa,2022,14.078942,10^9 m3/year,E,true
+15,Water use,Wastewater,Produced municipal wastewater,Northern Africa,2023,13.960942,10^9 m3/year,E,true
+747,Water use,Wastewater,Produced municipal wastewater,Northern Africa and Western Asia,2021,32.719500113,10^9 m3/year,E,true
+747,Water use,Wastewater,Produced municipal wastewater,Northern Africa and Western Asia,2022,33.137214245,10^9 m3/year,E,true
+747,Water use,Wastewater,Produced municipal wastewater,Northern Africa and Western Asia,2023,33.115927603,10^9 m3/year,E,true
+21,Water use,Wastewater,Produced municipal wastewater,Northern America,2021,65.8913653,10^9 m3/year,E,true
+21,Water use,Wastewater,Produced municipal wastewater,Northern America,2022,66.2083653,10^9 m3/year,E,true
+21,Water use,Wastewater,Produced municipal wastewater,Northern America,2023,66.4443653,10^9 m3/year,E,true
+578,Water use,Wastewater,Produced municipal wastewater,Norway,2021,0.93,10^9 m3/year,I,false
+578,Water use,Wastewater,Produced municipal wastewater,Norway,2022,0.93,10^9 m3/year,I,false
+578,Water use,Wastewater,Produced municipal wastewater,Norway,2023,0.93,10^9 m3/year,I,false
+9,Water use,Wastewater,Produced municipal wastewater,Oceania,2021,2.094,10^9 m3/year,E,true
+9,Water use,Wastewater,Produced municipal wastewater,Oceania,2022,2.094,10^9 m3/year,E,true
+9,Water use,Wastewater,Produced municipal wastewater,Oceania,2023,2.094,10^9 m3/year,E,true
+512,Water use,Wastewater,Produced municipal wastewater,Oman,2021,0.108938951,10^9 m3/year,X,false
+512,Water use,Wastewater,Produced municipal wastewater,Oman,2022,0.393081,10^9 m3/year,A,false
+512,Water use,Wastewater,Produced municipal wastewater,Oman,2023,0.376424,10^9 m3/year,A,false
+586,Water use,Wastewater,Produced municipal wastewater,Pakistan,2021,3.06,10^9 m3/year,I,false
+586,Water use,Wastewater,Produced municipal wastewater,Pakistan,2022,3.06,10^9 m3/year,I,false
+586,Water use,Wastewater,Produced municipal wastewater,Pakistan,2023,3.06,10^9 m3/year,I,false
+275,Water use,Wastewater,Produced municipal wastewater,Palestine,2021,0.06643,10^9 m3/year,X,false
+275,Water use,Wastewater,Produced municipal wastewater,Palestine,2022,0.06643,10^9 m3/year,I,false
+275,Water use,Wastewater,Produced municipal wastewater,Palestine,2023,0.06643,10^9 m3/year,I,false
+591,Water use,Wastewater,Produced municipal wastewater,Panama,2021,0.357376591,10^9 m3/year,X,false
+591,Water use,Wastewater,Produced municipal wastewater,Panama,2022,0.357376591,10^9 m3/year,I,false
+591,Water use,Wastewater,Produced municipal wastewater,Panama,2023,0.357376591,10^9 m3/year,I,false
+600,Water use,Wastewater,Produced municipal wastewater,Paraguay,2021,0.2048,10^9 m3/year,I,false
+600,Water use,Wastewater,Produced municipal wastewater,Paraguay,2022,0.2048,10^9 m3/year,I,false
+600,Water use,Wastewater,Produced municipal wastewater,Paraguay,2023,0.2048,10^9 m3/year,I,false
+604,Water use,Wastewater,Produced municipal wastewater,Peru,2021,1.203988131,10^9 m3/year,X,false
+604,Water use,Wastewater,Produced municipal wastewater,Peru,2022,1.203988131,10^9 m3/year,I,false
+604,Water use,Wastewater,Produced municipal wastewater,Peru,2023,1.203988131,10^9 m3/year,I,false
+608,Water use,Wastewater,Produced municipal wastewater,Philippines,2021,1.259,10^9 m3/year,I,false
+608,Water use,Wastewater,Produced municipal wastewater,Philippines,2022,1.259,10^9 m3/year,I,false
+608,Water use,Wastewater,Produced municipal wastewater,Philippines,2023,1.259,10^9 m3/year,I,false
+616,Water use,Wastewater,Produced municipal wastewater,Poland,2021,2.168,10^9 m3/year,I,false
+616,Water use,Wastewater,Produced municipal wastewater,Poland,2022,2.168,10^9 m3/year,I,false
+616,Water use,Wastewater,Produced municipal wastewater,Poland,2023,2.168,10^9 m3/year,I,false
+620,Water use,Wastewater,Produced municipal wastewater,Portugal,2021,0.577,10^9 m3/year,I,false
+620,Water use,Wastewater,Produced municipal wastewater,Portugal,2022,0.577,10^9 m3/year,I,false
+620,Water use,Wastewater,Produced municipal wastewater,Portugal,2023,0.577,10^9 m3/year,I,false
+634,Water use,Wastewater,Produced municipal wastewater,Qatar,2021,0.274,10^9 m3/year,I,false
+634,Water use,Wastewater,Produced municipal wastewater,Qatar,2022,0.274,10^9 m3/year,I,false
+634,Water use,Wastewater,Produced municipal wastewater,Qatar,2023,0.274,10^9 m3/year,I,false
+410,Water use,Wastewater,Produced municipal wastewater,Republic of Korea,2021,7.838,10^9 m3/year,I,false
+410,Water use,Wastewater,Produced municipal wastewater,Republic of Korea,2022,7.838,10^9 m3/year,I,false
+410,Water use,Wastewater,Produced municipal wastewater,Republic of Korea,2023,7.838,10^9 m3/year,I,false
+498,Water use,Wastewater,Produced municipal wastewater,Republic of Moldova,2021,0.6833165,10^9 m3/year,X,false
+498,Water use,Wastewater,Produced municipal wastewater,Republic of Moldova,2022,0.6833165,10^9 m3/year,I,false
+498,Water use,Wastewater,Produced municipal wastewater,Republic of Moldova,2023,0.6833165,10^9 m3/year,I,false
+642,Water use,Wastewater,Produced municipal wastewater,Romania,2021,1.018,10^9 m3/year,A,false
+642,Water use,Wastewater,Produced municipal wastewater,Romania,2022,0.994,10^9 m3/year,A,false
+642,Water use,Wastewater,Produced municipal wastewater,Romania,2023,0.993,10^9 m3/year,A,false
+643,Water use,Wastewater,Produced municipal wastewater,Russian Federation,2021,35.57,10^9 m3/year,A,false
+643,Water use,Wastewater,Produced municipal wastewater,Russian Federation,2022,36.179,10^9 m3/year,A,false
+643,Water use,Wastewater,Produced municipal wastewater,Russian Federation,2023,37.469,10^9 m3/year,A,false
+682,Water use,Wastewater,Produced municipal wastewater,Saudi Arabia,2021,3.143697593,10^9 m3/year,I,false
+682,Water use,Wastewater,Produced municipal wastewater,Saudi Arabia,2022,3.143697593,10^9 m3/year,I,false
+682,Water use,Wastewater,Produced municipal wastewater,Saudi Arabia,2023,3.143697593,10^9 m3/year,I,false
+686,Water use,Wastewater,Produced municipal wastewater,Senegal,2021,0.1626,10^9 m3/year,I,false
+686,Water use,Wastewater,Produced municipal wastewater,Senegal,2022,0.1626,10^9 m3/year,I,false
+686,Water use,Wastewater,Produced municipal wastewater,Senegal,2023,0.1626,10^9 m3/year,I,false
+688,Water use,Wastewater,Produced municipal wastewater,Serbia,2021,0.426,10^9 m3/year,A,false
+688,Water use,Wastewater,Produced municipal wastewater,Serbia,2022,0.437,10^9 m3/year,A,false
+688,Water use,Wastewater,Produced municipal wastewater,Serbia,2023,0.426,10^9 m3/year,A,false
+690,Water use,Wastewater,Produced municipal wastewater,Seychelles,2021,0.0088,10^9 m3/year,I,false
+690,Water use,Wastewater,Produced municipal wastewater,Seychelles,2022,0.0088,10^9 m3/year,I,false
+690,Water use,Wastewater,Produced municipal wastewater,Seychelles,2023,0.0088,10^9 m3/year,I,false
+702,Water use,Wastewater,Produced municipal wastewater,Singapore,2021,0.511,10^9 m3/year,I,false
+702,Water use,Wastewater,Produced municipal wastewater,Singapore,2022,0.511,10^9 m3/year,I,false
+702,Water use,Wastewater,Produced municipal wastewater,Singapore,2023,0.511,10^9 m3/year,I,false
+703,Water use,Wastewater,Produced municipal wastewater,Slovakia,2021,0.56,10^9 m3/year,I,false
+703,Water use,Wastewater,Produced municipal wastewater,Slovakia,2022,0.56,10^9 m3/year,I,false
+703,Water use,Wastewater,Produced municipal wastewater,Slovakia,2023,0.56,10^9 m3/year,I,false
+705,Water use,Wastewater,Produced municipal wastewater,Slovenia,2021,0.233,10^9 m3/year,A,false
+705,Water use,Wastewater,Produced municipal wastewater,Slovenia,2022,0.216,10^9 m3/year,A,false
+705,Water use,Wastewater,Produced municipal wastewater,Slovenia,2023,0.256,10^9 m3/year,A,false
+722,Water use,Wastewater,Produced municipal wastewater,Small Island Developing States,2021,4.022521905,10^9 m3/year,E,true
+722,Water use,Wastewater,Produced municipal wastewater,Small Island Developing States,2022,4.037357715,10^9 m3/year,E,true
+722,Water use,Wastewater,Produced municipal wastewater,Small Island Developing States,2023,4.037357715,10^9 m3/year,E,true
+710,Water use,Wastewater,Produced municipal wastewater,South Africa,2021,3.456,10^9 m3/year,A,false
+710,Water use,Wastewater,Produced municipal wastewater,South Africa,2022,3.456,10^9 m3/year,A,false
+710,Water use,Wastewater,Produced municipal wastewater,South Africa,2023,3.456,10^9 m3/year,I,false
+35,Water use,Wastewater,Produced municipal wastewater,South-eastern Asia,2021,25.448128837,10^9 m3/year,E,true
+35,Water use,Wastewater,Produced municipal wastewater,South-eastern Asia,2022,25.448128837,10^9 m3/year,E,true
+35,Water use,Wastewater,Produced municipal wastewater,South-eastern Asia,2023,25.448128837,10^9 m3/year,E,true
+34,Water use,Wastewater,Produced municipal wastewater,Southern Asia,2021,28.572893301,10^9 m3/year,E,true
+34,Water use,Wastewater,Produced municipal wastewater,Southern Asia,2022,28.848893125,10^9 m3/year,E,true
+34,Water use,Wastewater,Produced municipal wastewater,Southern Asia,2023,28.891893125,10^9 m3/year,E,true
+724,Water use,Wastewater,Produced municipal wastewater,Spain,2021,5.68,10^9 m3/year,I,false
+724,Water use,Wastewater,Produced municipal wastewater,Spain,2022,5.68,10^9 m3/year,I,false
+724,Water use,Wastewater,Produced municipal wastewater,Spain,2023,5.68,10^9 m3/year,I,false
+144,Water use,Wastewater,Produced municipal wastewater,Sri Lanka,2021,0.1181,10^9 m3/year,I,false
+144,Water use,Wastewater,Produced municipal wastewater,Sri Lanka,2022,0.1181,10^9 m3/year,I,false
+144,Water use,Wastewater,Produced municipal wastewater,Sri Lanka,2023,0.1181,10^9 m3/year,I,false
+202,Water use,Wastewater,Produced municipal wastewater,Sub-Saharan Africa,2021,6.551548467,10^9 m3/year,E,true
+202,Water use,Wastewater,Produced municipal wastewater,Sub-Saharan Africa,2022,6.571874277,10^9 m3/year,E,true
+202,Water use,Wastewater,Produced municipal wastewater,Sub-Saharan Africa,2023,6.578154277,10^9 m3/year,E,true
+729,Water use,Wastewater,Produced municipal wastewater,Sudan,2021,0.4797,10^9 m3/year,I,false
+729,Water use,Wastewater,Produced municipal wastewater,Sudan,2022,0.4797,10^9 m3/year,I,false
+729,Water use,Wastewater,Produced municipal wastewater,Sudan,2023,0.4797,10^9 m3/year,I,false
+752,Water use,Wastewater,Produced municipal wastewater,Sweden,2021,1.18,10^9 m3/year,I,false
+752,Water use,Wastewater,Produced municipal wastewater,Sweden,2022,1.18,10^9 m3/year,I,false
+752,Water use,Wastewater,Produced municipal wastewater,Sweden,2023,1.18,10^9 m3/year,I,false
+756,Water use,Wastewater,Produced municipal wastewater,Switzerland,2021,1.409,10^9 m3/year,I,false
+756,Water use,Wastewater,Produced municipal wastewater,Switzerland,2022,1.409,10^9 m3/year,I,false
+756,Water use,Wastewater,Produced municipal wastewater,Switzerland,2023,1.409,10^9 m3/year,I,false
+760,Water use,Wastewater,Produced municipal wastewater,Syrian Arab Republic,2021,1.37,10^9 m3/year,I,false
+760,Water use,Wastewater,Produced municipal wastewater,Syrian Arab Republic,2022,1.37,10^9 m3/year,I,false
+760,Water use,Wastewater,Produced municipal wastewater,Syrian Arab Republic,2023,1.37,10^9 m3/year,I,false
+762,Water use,Wastewater,Produced municipal wastewater,Tajikistan,2021,0.34,10^9 m3/year,I,false
+762,Water use,Wastewater,Produced municipal wastewater,Tajikistan,2022,0.34,10^9 m3/year,I,false
+762,Water use,Wastewater,Produced municipal wastewater,Tajikistan,2023,0.34,10^9 m3/year,I,false
+764,Water use,Wastewater,Produced municipal wastewater,Thailand,2021,5.11,10^9 m3/year,I,false
+764,Water use,Wastewater,Produced municipal wastewater,Thailand,2022,5.11,10^9 m3/year,I,false
+764,Water use,Wastewater,Produced municipal wastewater,Thailand,2023,5.11,10^9 m3/year,I,false
+788,Water use,Wastewater,Produced municipal wastewater,Tunisia,2021,0.42,10^9 m3/year,A,false
+788,Water use,Wastewater,Produced municipal wastewater,Tunisia,2022,0.429,10^9 m3/year,A,false
+788,Water use,Wastewater,Produced municipal wastewater,Tunisia,2023,0.311,10^9 m3/year,A,false
+795,Water use,Wastewater,Produced municipal wastewater,Turkmenistan,2021,6.1857,10^9 m3/year,I,false
+795,Water use,Wastewater,Produced municipal wastewater,Turkmenistan,2022,6.1857,10^9 m3/year,I,false
+795,Water use,Wastewater,Produced municipal wastewater,Turkmenistan,2023,6.1857,10^9 m3/year,I,false
+792,Water use,Wastewater,Produced municipal wastewater,Türkiye,2021,5.612016895,10^9 m3/year,I,false
+792,Water use,Wastewater,Produced municipal wastewater,Türkiye,2022,5.787493352,10^9 m3/year,A,false
+792,Water use,Wastewater,Produced municipal wastewater,Türkiye,2023,5.787493352,10^9 m3/year,I,false
+800,Water use,Wastewater,Produced municipal wastewater,Uganda,2021,0.0419,10^9 m3/year,I,false
+800,Water use,Wastewater,Produced municipal wastewater,Uganda,2022,0.0419,10^9 m3/year,I,false
+800,Water use,Wastewater,Produced municipal wastewater,Uganda,2023,0.0419,10^9 m3/year,I,false
+804,Water use,Wastewater,Produced municipal wastewater,Ukraine,2021,1.505,10^9 m3/year,A,false
+804,Water use,Wastewater,Produced municipal wastewater,Ukraine,2022,1.157,10^9 m3/year,A,false
+804,Water use,Wastewater,Produced municipal wastewater,Ukraine,2023,1.199,10^9 m3/year,A,false
+784,Water use,Wastewater,Produced municipal wastewater,United Arab Emirates,2021,0.925652174,10^9 m3/year,I,false
+784,Water use,Wastewater,Produced municipal wastewater,United Arab Emirates,2022,0.945,10^9 m3/year,A,false
+784,Water use,Wastewater,Produced municipal wastewater,United Arab Emirates,2023,1.053769438,10^9 m3/year,A,false
+826,Water use,Wastewater,Produced municipal wastewater,United Kingdom of Great Britain and Northern Ireland,2021,4.089,10^9 m3/year,I,false
+826,Water use,Wastewater,Produced municipal wastewater,United Kingdom of Great Britain and Northern Ireland,2022,4.089,10^9 m3/year,I,false
+826,Water use,Wastewater,Produced municipal wastewater,United Kingdom of Great Britain and Northern Ireland,2023,4.089,10^9 m3/year,I,false
+840,Water use,Wastewater,Produced municipal wastewater,United States of America,2021,60.41,10^9 m3/year,I,false
+840,Water use,Wastewater,Produced municipal wastewater,United States of America,2022,60.41,10^9 m3/year,I,false
+840,Water use,Wastewater,Produced municipal wastewater,United States of America,2023,60.41,10^9 m3/year,I,false
+858,Water use,Wastewater,Produced municipal wastewater,Uruguay,2021,0.363,10^9 m3/year,A,false
+858,Water use,Wastewater,Produced municipal wastewater,Uruguay,2022,0.355,10^9 m3/year,A,false
+858,Water use,Wastewater,Produced municipal wastewater,Uruguay,2023,0.36,10^9 m3/year,A,false
+860,Water use,Wastewater,Produced municipal wastewater,Uzbekistan,2021,0.9904556,10^9 m3/year,I,false
+860,Water use,Wastewater,Produced municipal wastewater,Uzbekistan,2022,0.9904556,10^9 m3/year,I,false
+860,Water use,Wastewater,Produced municipal wastewater,Uzbekistan,2023,0.9904556,10^9 m3/year,I,false
+862,Water use,Wastewater,Produced municipal wastewater,Venezuela (Bolivarian Republic of),2021,2.903,10^9 m3/year,I,false
+862,Water use,Wastewater,Produced municipal wastewater,Venezuela (Bolivarian Republic of),2022,2.903,10^9 m3/year,I,false
+862,Water use,Wastewater,Produced municipal wastewater,Venezuela (Bolivarian Republic of),2023,2.903,10^9 m3/year,I,false
+704,Water use,Wastewater,Produced municipal wastewater,Viet Nam,2021,1.972,10^9 m3/year,I,false
+704,Water use,Wastewater,Produced municipal wastewater,Viet Nam,2022,1.972,10^9 m3/year,I,false
+704,Water use,Wastewater,Produced municipal wastewater,Viet Nam,2023,1.972,10^9 m3/year,I,false
+145,Water use,Wastewater,Produced municipal wastewater,Western Asia,2021,18.648592113,10^9 m3/year,E,true
+145,Water use,Wastewater,Produced municipal wastewater,Western Asia,2022,19.058272245,10^9 m3/year,E,true
+145,Water use,Wastewater,Produced municipal wastewater,Western Asia,2023,19.154985603,10^9 m3/year,E,true
+1,Water use,Wastewater,Produced municipal wastewater,World,2021,366.366111616,10^9 m3/year,E,true
+1,Water use,Wastewater,Produced municipal wastewater,World,2022,365.785550759,10^9 m3/year,E,true
+1,Water use,Wastewater,Produced municipal wastewater,World,2023,368.175517395,10^9 m3/year,E,true
+887,Water use,Wastewater,Produced municipal wastewater,Yemen,2021,0.1315,10^9 m3/year,I,false
+887,Water use,Wastewater,Produced municipal wastewater,Yemen,2022,0.1315,10^9 m3/year,I,false
+887,Water use,Wastewater,Produced municipal wastewater,Yemen,2023,0.1315,10^9 m3/year,I,false
+894,Water use,Wastewater,Produced municipal wastewater,Zambia,2021,0.11338,10^9 m3/year,A,false
+894,Water use,Wastewater,Produced municipal wastewater,Zambia,2022,0.11298,10^9 m3/year,A,false
+894,Water use,Wastewater,Produced municipal wastewater,Zambia,2023,0.11535,10^9 m3/year,A,false
+716,Water use,Wastewater,Produced municipal wastewater,Zimbabwe,2021,0.226490292,10^9 m3/year,I,false
+716,Water use,Wastewater,Produced municipal wastewater,Zimbabwe,2022,0.226490292,10^9 m3/year,I,false
+716,Water use,Wastewater,Produced municipal wastewater,Zimbabwe,2023,0.226490292,10^9 m3/year,I,false
+4,Water use,Water withdrawal by sector,Agricultural water withdrawal,Afghanistan,2021,20,10^9 m3/year,I,false
+4,Water use,Water withdrawal by sector,Agricultural water withdrawal,Afghanistan,2022,20,10^9 m3/year,I,false
+4,Water use,Water withdrawal by sector,Agricultural water withdrawal,Afghanistan,2023,20,10^9 m3/year,I,false
+8,Water use,Water withdrawal by sector,Agricultural water withdrawal,Albania,2021,0.564,10^9 m3/year,A,false
+8,Water use,Water withdrawal by sector,Agricultural water withdrawal,Albania,2022,0.565,10^9 m3/year,A,false
+8,Water use,Water withdrawal by sector,Agricultural water withdrawal,Albania,2023,0.563,10^9 m3/year,A,false
+12,Water use,Water withdrawal by sector,Agricultural water withdrawal,Algeria,2021,7.132,10^9 m3/year,A,false
+12,Water use,Water withdrawal by sector,Agricultural water withdrawal,Algeria,2022,7.391,10^9 m3/year,A,false
+12,Water use,Water withdrawal by sector,Agricultural water withdrawal,Algeria,2023,7.391,10^9 m3/year,I,false
+24,Water use,Water withdrawal by sector,Agricultural water withdrawal,Angola,2021,0.1467,10^9 m3/year,I,false
+24,Water use,Water withdrawal by sector,Agricultural water withdrawal,Angola,2022,0.1467,10^9 m3/year,I,false
+24,Water use,Water withdrawal by sector,Agricultural water withdrawal,Angola,2023,0.1467,10^9 m3/year,I,false
+28,Water use,Water withdrawal by sector,Agricultural water withdrawal,Antigua and Barbuda,2021,0.0018,10^9 m3/year,I,false
+28,Water use,Water withdrawal by sector,Agricultural water withdrawal,Antigua and Barbuda,2022,0.0018,10^9 m3/year,I,false
+28,Water use,Water withdrawal by sector,Agricultural water withdrawal,Antigua and Barbuda,2023,0.0018,10^9 m3/year,I,false
+32,Water use,Water withdrawal by sector,Agricultural water withdrawal,Argentina,2021,27.93,10^9 m3/year,I,false
+32,Water use,Water withdrawal by sector,Agricultural water withdrawal,Argentina,2022,27.93,10^9 m3/year,I,false
+32,Water use,Water withdrawal by sector,Agricultural water withdrawal,Argentina,2023,27.93,10^9 m3/year,I,false
+51,Water use,Water withdrawal by sector,Agricultural water withdrawal,Armenia,2021,2.256,10^9 m3/year,A,false
+51,Water use,Water withdrawal by sector,Agricultural water withdrawal,Armenia,2022,2.38,10^9 m3/year,A,false
+51,Water use,Water withdrawal by sector,Agricultural water withdrawal,Armenia,2023,2.38,10^9 m3/year,I,false
+36,Water use,Water withdrawal by sector,Agricultural water withdrawal,Australia,2021,10.84,10^9 m3/year,A,false
+36,Water use,Water withdrawal by sector,Agricultural water withdrawal,Australia,2022,11.17,10^9 m3/year,A,false
+36,Water use,Water withdrawal by sector,Agricultural water withdrawal,Australia,2023,11.6,10^9 m3/year,A,false
+53,Water use,Water withdrawal by sector,Agricultural water withdrawal,Australia and New Zealand,2021,14.047,10^9 m3/year,E,true
+53,Water use,Water withdrawal by sector,Agricultural water withdrawal,Australia and New Zealand,2022,14.377,10^9 m3/year,E,true
+53,Water use,Water withdrawal by sector,Agricultural water withdrawal,Australia and New Zealand,2023,14.807,10^9 m3/year,E,true
+40,Water use,Water withdrawal by sector,Agricultural water withdrawal,Austria,2021,0.124,10^9 m3/year,I,false
+40,Water use,Water withdrawal by sector,Agricultural water withdrawal,Austria,2022,0.124,10^9 m3/year,I,false
+40,Water use,Water withdrawal by sector,Agricultural water withdrawal,Austria,2023,0.124,10^9 m3/year,I,false
+31,Water use,Water withdrawal by sector,Agricultural water withdrawal,Azerbaijan,2021,11.962,10^9 m3/year,A,false
+31,Water use,Water withdrawal by sector,Agricultural water withdrawal,Azerbaijan,2022,11.962,10^9 m3/year,I,false
+31,Water use,Water withdrawal by sector,Agricultural water withdrawal,Azerbaijan,2023,11.962,10^9 m3/year,I,false
+48,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bahrain,2021,0.1447,10^9 m3/year,I,false
+48,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bahrain,2022,0.1447,10^9 m3/year,I,false
+48,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bahrain,2023,0.1447,10^9 m3/year,I,false
+50,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bangladesh,2021,31.5,10^9 m3/year,I,false
+50,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bangladesh,2022,31.5,10^9 m3/year,I,false
+50,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bangladesh,2023,31.5,10^9 m3/year,I,false
+52,Water use,Water withdrawal by sector,Agricultural water withdrawal,Barbados,2021,0.0548,10^9 m3/year,I,false
+52,Water use,Water withdrawal by sector,Agricultural water withdrawal,Barbados,2022,0.0548,10^9 m3/year,I,false
+52,Water use,Water withdrawal by sector,Agricultural water withdrawal,Barbados,2023,0.0548,10^9 m3/year,I,false
+112,Water use,Water withdrawal by sector,Agricultural water withdrawal,Belarus,2021,0.396,10^9 m3/year,A,false
+112,Water use,Water withdrawal by sector,Agricultural water withdrawal,Belarus,2022,0.385,10^9 m3/year,A,false
+112,Water use,Water withdrawal by sector,Agricultural water withdrawal,Belarus,2023,0.358,10^9 m3/year,A,false
+56,Water use,Water withdrawal by sector,Agricultural water withdrawal,Belgium,2021,0.04197,10^9 m3/year,X,false
+56,Water use,Water withdrawal by sector,Agricultural water withdrawal,Belgium,2022,0.04197,10^9 m3/year,I,false
+56,Water use,Water withdrawal by sector,Agricultural water withdrawal,Belgium,2023,0.04197,10^9 m3/year,I,false
+84,Water use,Water withdrawal by sector,Agricultural water withdrawal,Belize,2021,0.0684,10^9 m3/year,I,false
+84,Water use,Water withdrawal by sector,Agricultural water withdrawal,Belize,2022,0.0684,10^9 m3/year,I,false
+84,Water use,Water withdrawal by sector,Agricultural water withdrawal,Belize,2023,0.0684,10^9 m3/year,I,false
+204,Water use,Water withdrawal by sector,Agricultural water withdrawal,Benin,2021,0.059,10^9 m3/year,I,false
+204,Water use,Water withdrawal by sector,Agricultural water withdrawal,Benin,2022,0.059,10^9 m3/year,I,false
+204,Water use,Water withdrawal by sector,Agricultural water withdrawal,Benin,2023,0.059,10^9 m3/year,I,false
+64,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bhutan,2021,0.318,10^9 m3/year,I,false
+64,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bhutan,2022,0.318,10^9 m3/year,I,false
+64,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bhutan,2023,0.318,10^9 m3/year,I,false
+68,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bolivia (Plurinational State of),2021,1.92,10^9 m3/year,I,false
+68,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bolivia (Plurinational State of),2022,1.92,10^9 m3/year,I,false
+68,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bolivia (Plurinational State of),2023,1.92,10^9 m3/year,I,false
+72,Water use,Water withdrawal by sector,Agricultural water withdrawal,Botswana,2021,0.0779995,10^9 m3/year,A,false
+72,Water use,Water withdrawal by sector,Agricultural water withdrawal,Botswana,2022,0.0596609,10^9 m3/year,A,false
+72,Water use,Water withdrawal by sector,Agricultural water withdrawal,Botswana,2023,0.062,10^9 m3/year,A,false
+76,Water use,Water withdrawal by sector,Agricultural water withdrawal,Brazil,2021,41.27,10^9 m3/year,A,false
+76,Water use,Water withdrawal by sector,Agricultural water withdrawal,Brazil,2022,41.336,10^9 m3/year,A,false
+76,Water use,Water withdrawal by sector,Agricultural water withdrawal,Brazil,2023,37.866,10^9 m3/year,A,false
+96,Water use,Water withdrawal by sector,Agricultural water withdrawal,Brunei Darussalam,2021,0.0053,10^9 m3/year,I,false
+96,Water use,Water withdrawal by sector,Agricultural water withdrawal,Brunei Darussalam,2022,0.0053,10^9 m3/year,I,false
+96,Water use,Water withdrawal by sector,Agricultural water withdrawal,Brunei Darussalam,2023,0.0053,10^9 m3/year,I,false
+100,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bulgaria,2021,0.737,10^9 m3/year,A,false
+100,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bulgaria,2022,0.725,10^9 m3/year,A,false
+100,Water use,Water withdrawal by sector,Agricultural water withdrawal,Bulgaria,2023,0.749,10^9 m3/year,A,false
+854,Water use,Water withdrawal by sector,Agricultural water withdrawal,Burkina Faso,2021,0.4207,10^9 m3/year,I,false
+854,Water use,Water withdrawal by sector,Agricultural water withdrawal,Burkina Faso,2022,0.4207,10^9 m3/year,I,false
+854,Water use,Water withdrawal by sector,Agricultural water withdrawal,Burkina Faso,2023,0.4207,10^9 m3/year,I,false
+108,Water use,Water withdrawal by sector,Agricultural water withdrawal,Burundi,2021,0.222,10^9 m3/year,I,false
+108,Water use,Water withdrawal by sector,Agricultural water withdrawal,Burundi,2022,0.222,10^9 m3/year,I,false
+108,Water use,Water withdrawal by sector,Agricultural water withdrawal,Burundi,2023,0.222,10^9 m3/year,I,false
+132,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cabo Verde,2021,0.10926951,10^9 m3/year,A,false
+132,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cabo Verde,2022,0.10321736,10^9 m3/year,A,false
+132,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cabo Verde,2023,0.10321736,10^9 m3/year,I,false
+116,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cambodia,2021,2.053,10^9 m3/year,I,false
+116,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cambodia,2022,2.053,10^9 m3/year,I,false
+116,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cambodia,2023,2.053,10^9 m3/year,I,false
+120,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cameroon,2021,0.737,10^9 m3/year,I,false
+120,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cameroon,2022,0.737,10^9 m3/year,I,false
+120,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cameroon,2023,0.737,10^9 m3/year,I,false
+124,Water use,Water withdrawal by sector,Agricultural water withdrawal,Canada,2021,3.859,10^9 m3/year,I,false
+124,Water use,Water withdrawal by sector,Agricultural water withdrawal,Canada,2022,3.859,10^9 m3/year,I,false
+124,Water use,Water withdrawal by sector,Agricultural water withdrawal,Canada,2023,3.859,10^9 m3/year,I,false
+140,Water use,Water withdrawal by sector,Agricultural water withdrawal,Central African Republic,2021,0.0004,10^9 m3/year,I,false
+140,Water use,Water withdrawal by sector,Agricultural water withdrawal,Central African Republic,2022,0.0004,10^9 m3/year,I,false
+140,Water use,Water withdrawal by sector,Agricultural water withdrawal,Central African Republic,2023,0.0004,10^9 m3/year,I,false
+143,Water use,Water withdrawal by sector,Agricultural water withdrawal,Central Asia,2021,85.0036,10^9 m3/year,E,true
+143,Water use,Water withdrawal by sector,Agricultural water withdrawal,Central Asia,2022,85.8616,10^9 m3/year,E,true
+143,Water use,Water withdrawal by sector,Agricultural water withdrawal,Central Asia,2023,85.6286,10^9 m3/year,E,true
+62,Water use,Water withdrawal by sector,Agricultural water withdrawal,Central and Southern Asia,2021,1103.851868194,10^9 m3/year,E,true
+62,Water use,Water withdrawal by sector,Agricultural water withdrawal,Central and Southern Asia,2022,1104.709868194,10^9 m3/year,E,true
+62,Water use,Water withdrawal by sector,Agricultural water withdrawal,Central and Southern Asia,2023,1104.476868194,10^9 m3/year,E,true
+148,Water use,Water withdrawal by sector,Agricultural water withdrawal,Chad,2021,0.6722,10^9 m3/year,I,false
+148,Water use,Water withdrawal by sector,Agricultural water withdrawal,Chad,2022,0.6722,10^9 m3/year,I,false
+148,Water use,Water withdrawal by sector,Agricultural water withdrawal,Chad,2023,0.6722,10^9 m3/year,I,false
+152,Water use,Water withdrawal by sector,Agricultural water withdrawal,Chile,2021,29.42,10^9 m3/year,I,false
+152,Water use,Water withdrawal by sector,Agricultural water withdrawal,Chile,2022,29.42,10^9 m3/year,I,false
+152,Water use,Water withdrawal by sector,Agricultural water withdrawal,Chile,2023,29.42,10^9 m3/year,I,false
+156,Water use,Water withdrawal by sector,Agricultural water withdrawal,China,2021,364.43,10^9 m3/year,A,false
+156,Water use,Water withdrawal by sector,Agricultural water withdrawal,China,2022,378.31,10^9 m3/year,A,false
+156,Water use,Water withdrawal by sector,Agricultural water withdrawal,China,2023,378.31,10^9 m3/year,I,false
+170,Water use,Water withdrawal by sector,Agricultural water withdrawal,Colombia,2021,19.89116,10^9 m3/year,A,false
+170,Water use,Water withdrawal by sector,Agricultural water withdrawal,Colombia,2022,20.45657,10^9 m3/year,A,false
+170,Water use,Water withdrawal by sector,Agricultural water withdrawal,Colombia,2023,20.88263,10^9 m3/year,A,false
+174,Water use,Water withdrawal by sector,Agricultural water withdrawal,Comoros,2021,0.0047,10^9 m3/year,I,false
+174,Water use,Water withdrawal by sector,Agricultural water withdrawal,Comoros,2022,0.0047,10^9 m3/year,I,false
+174,Water use,Water withdrawal by sector,Agricultural water withdrawal,Comoros,2023,0.0047,10^9 m3/year,I,false
+178,Water use,Water withdrawal by sector,Agricultural water withdrawal,Congo,2021,0.004,10^9 m3/year,I,false
+178,Water use,Water withdrawal by sector,Agricultural water withdrawal,Congo,2022,0.004,10^9 m3/year,I,false
+178,Water use,Water withdrawal by sector,Agricultural water withdrawal,Congo,2023,0.004,10^9 m3/year,I,false
+188,Water use,Water withdrawal by sector,Agricultural water withdrawal,Costa Rica,2021,2.092895183,10^9 m3/year,A,false
+188,Water use,Water withdrawal by sector,Agricultural water withdrawal,Costa Rica,2022,2.092895183,10^9 m3/year,I,false
+188,Water use,Water withdrawal by sector,Agricultural water withdrawal,Costa Rica,2023,2.092895183,10^9 m3/year,I,false
+191,Water use,Water withdrawal by sector,Agricultural water withdrawal,Croatia,2021,0.076,10^9 m3/year,A,false
+191,Water use,Water withdrawal by sector,Agricultural water withdrawal,Croatia,2022,0.076,10^9 m3/year,A,false
+191,Water use,Water withdrawal by sector,Agricultural water withdrawal,Croatia,2023,0.076,10^9 m3/year,A,false
+192,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cuba,2021,4.519,10^9 m3/year,I,false
+192,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cuba,2022,4.519,10^9 m3/year,I,false
+192,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cuba,2023,4.519,10^9 m3/year,I,false
+196,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cyprus,2021,0.18,10^9 m3/year,A,false
+196,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cyprus,2022,0.177,10^9 m3/year,A,false
+196,Water use,Water withdrawal by sector,Agricultural water withdrawal,Cyprus,2023,0.181,10^9 m3/year,A,false
+203,Water use,Water withdrawal by sector,Agricultural water withdrawal,Czechia,2021,0.037,10^9 m3/year,A,false
+203,Water use,Water withdrawal by sector,Agricultural water withdrawal,Czechia,2022,0.044,10^9 m3/year,A,false
+203,Water use,Water withdrawal by sector,Agricultural water withdrawal,Czechia,2023,0.044,10^9 m3/year,A,false
+384,Water use,Water withdrawal by sector,Agricultural water withdrawal,Côte d'Ivoire,2021,0.6,10^9 m3/year,I,false
+384,Water use,Water withdrawal by sector,Agricultural water withdrawal,Côte d'Ivoire,2022,0.6,10^9 m3/year,I,false
+384,Water use,Water withdrawal by sector,Agricultural water withdrawal,Côte d'Ivoire,2023,0.6,10^9 m3/year,I,false
+408,Water use,Water withdrawal by sector,Agricultural water withdrawal,Democratic People's Republic of Korea,2021,6.61,10^9 m3/year,I,false
+408,Water use,Water withdrawal by sector,Agricultural water withdrawal,Democratic People's Republic of Korea,2022,6.61,10^9 m3/year,I,false
+408,Water use,Water withdrawal by sector,Agricultural water withdrawal,Democratic People's Republic of Korea,2023,6.61,10^9 m3/year,I,false
+180,Water use,Water withdrawal by sector,Agricultural water withdrawal,Democratic Republic of the Congo,2021,0.0719,10^9 m3/year,I,false
+180,Water use,Water withdrawal by sector,Agricultural water withdrawal,Democratic Republic of the Congo,2022,0.0719,10^9 m3/year,I,false
+180,Water use,Water withdrawal by sector,Agricultural water withdrawal,Democratic Republic of the Congo,2023,0.0719,10^9 m3/year,I,false
+208,Water use,Water withdrawal by sector,Agricultural water withdrawal,Denmark,2021,0.517038,10^9 m3/year,A,false
+208,Water use,Water withdrawal by sector,Agricultural water withdrawal,Denmark,2022,0.521013,10^9 m3/year,A,false
+208,Water use,Water withdrawal by sector,Agricultural water withdrawal,Denmark,2023,0.551462,10^9 m3/year,A,false
+262,Water use,Water withdrawal by sector,Agricultural water withdrawal,Djibouti,2021,0.003,10^9 m3/year,I,false
+262,Water use,Water withdrawal by sector,Agricultural water withdrawal,Djibouti,2022,0.003,10^9 m3/year,I,false
+262,Water use,Water withdrawal by sector,Agricultural water withdrawal,Djibouti,2023,0.003,10^9 m3/year,I,false
+212,Water use,Water withdrawal by sector,Agricultural water withdrawal,Dominica,2021,0.001,10^9 m3/year,I,false
+212,Water use,Water withdrawal by sector,Agricultural water withdrawal,Dominica,2022,0.001,10^9 m3/year,I,false
+212,Water use,Water withdrawal by sector,Agricultural water withdrawal,Dominica,2023,0.001,10^9 m3/year,I,false
+214,Water use,Water withdrawal by sector,Agricultural water withdrawal,Dominican Republic,2021,7.563,10^9 m3/year,I,false
+214,Water use,Water withdrawal by sector,Agricultural water withdrawal,Dominican Republic,2022,7.563,10^9 m3/year,I,false
+214,Water use,Water withdrawal by sector,Agricultural water withdrawal,Dominican Republic,2023,7.563,10^9 m3/year,I,false
+30,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eastern Asia,2021,440.2509,10^9 m3/year,E,true
+30,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eastern Asia,2022,453.9309,10^9 m3/year,E,true
+30,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eastern Asia,2023,453.9309,10^9 m3/year,E,true
+753,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eastern and South-Eastern Asia,2021,867.872974904,10^9 m3/year,E,true
+753,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eastern and South-Eastern Asia,2022,881.629383237,10^9 m3/year,E,true
+753,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eastern and South-Eastern Asia,2023,881.657239747,10^9 m3/year,E,true
+218,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ecuador,2021,8.076,10^9 m3/year,I,false
+218,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ecuador,2022,8.076,10^9 m3/year,I,false
+218,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ecuador,2023,8.076,10^9 m3/year,I,false
+818,Water use,Water withdrawal by sector,Agricultural water withdrawal,Egypt,2021,61.35,10^9 m3/year,I,false
+818,Water use,Water withdrawal by sector,Agricultural water withdrawal,Egypt,2022,61.35,10^9 m3/year,I,false
+818,Water use,Water withdrawal by sector,Agricultural water withdrawal,Egypt,2023,61.35,10^9 m3/year,I,false
+222,Water use,Water withdrawal by sector,Agricultural water withdrawal,El Salvador,2021,0.518524,10^9 m3/year,A,false
+222,Water use,Water withdrawal by sector,Agricultural water withdrawal,El Salvador,2022,1.41098,10^9 m3/year,A,false
+222,Water use,Water withdrawal by sector,Agricultural water withdrawal,El Salvador,2023,1.41055,10^9 m3/year,A,false
+226,Water use,Water withdrawal by sector,Agricultural water withdrawal,Equatorial Guinea,2021,0.001,10^9 m3/year,I,false
+226,Water use,Water withdrawal by sector,Agricultural water withdrawal,Equatorial Guinea,2022,0.001,10^9 m3/year,I,false
+226,Water use,Water withdrawal by sector,Agricultural water withdrawal,Equatorial Guinea,2023,0.001,10^9 m3/year,I,false
+232,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eritrea,2021,0.55,10^9 m3/year,I,false
+232,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eritrea,2022,0.55,10^9 m3/year,I,false
+232,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eritrea,2023,0.55,10^9 m3/year,I,false
+233,Water use,Water withdrawal by sector,Agricultural water withdrawal,Estonia,2021,0.004971369,10^9 m3/year,A,false
+233,Water use,Water withdrawal by sector,Agricultural water withdrawal,Estonia,2022,0.005000118,10^9 m3/year,A,false
+233,Water use,Water withdrawal by sector,Agricultural water withdrawal,Estonia,2023,0.005089657,10^9 m3/year,A,false
+748,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eswatini,2021,1.006,10^9 m3/year,I,false
+748,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eswatini,2022,1.006,10^9 m3/year,I,false
+748,Water use,Water withdrawal by sector,Agricultural water withdrawal,Eswatini,2023,1.006,10^9 m3/year,I,false
+231,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ethiopia,2021,9.687,10^9 m3/year,I,false
+231,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ethiopia,2022,9.687,10^9 m3/year,I,false
+231,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ethiopia,2023,9.687,10^9 m3/year,I,false
+150,Water use,Water withdrawal by sector,Agricultural water withdrawal,Europe,2021,83.013550927,10^9 m3/year,E,true
+150,Water use,Water withdrawal by sector,Agricultural water withdrawal,Europe,2022,82.460377239,10^9 m3/year,E,true
+150,Water use,Water withdrawal by sector,Agricultural water withdrawal,Europe,2023,82.192080575,10^9 m3/year,E,true
+513,Water use,Water withdrawal by sector,Agricultural water withdrawal,Europe and Northern America,2021,263.072550927,10^9 m3/year,E,true
+513,Water use,Water withdrawal by sector,Agricultural water withdrawal,Europe and Northern America,2022,262.519377239,10^9 m3/year,E,true
+513,Water use,Water withdrawal by sector,Agricultural water withdrawal,Europe and Northern America,2023,262.251080575,10^9 m3/year,E,true
+242,Water use,Water withdrawal by sector,Agricultural water withdrawal,Fiji,2021,0.05,10^9 m3/year,I,false
+242,Water use,Water withdrawal by sector,Agricultural water withdrawal,Fiji,2022,0.05,10^9 m3/year,I,false
+242,Water use,Water withdrawal by sector,Agricultural water withdrawal,Fiji,2023,0.05,10^9 m3/year,I,false
+246,Water use,Water withdrawal by sector,Agricultural water withdrawal,Finland,2021,1,10^9 m3/year,I,false
+246,Water use,Water withdrawal by sector,Agricultural water withdrawal,Finland,2022,1,10^9 m3/year,I,false
+246,Water use,Water withdrawal by sector,Agricultural water withdrawal,Finland,2023,1,10^9 m3/year,I,false
+250,Water use,Water withdrawal by sector,Agricultural water withdrawal,France,2021,2.600379,10^9 m3/year,A,false
+250,Water use,Water withdrawal by sector,Agricultural water withdrawal,France,2022,3.553932,10^9 m3/year,A,false
+250,Water use,Water withdrawal by sector,Agricultural water withdrawal,France,2023,2.923788,10^9 m3/year,A,false
+266,Water use,Water withdrawal by sector,Agricultural water withdrawal,Gabon,2021,0.0403,10^9 m3/year,I,false
+266,Water use,Water withdrawal by sector,Agricultural water withdrawal,Gabon,2022,0.0403,10^9 m3/year,I,false
+266,Water use,Water withdrawal by sector,Agricultural water withdrawal,Gabon,2023,0.0403,10^9 m3/year,I,false
+270,Water use,Water withdrawal by sector,Agricultural water withdrawal,Gambia,2021,0.0392,10^9 m3/year,I,false
+270,Water use,Water withdrawal by sector,Agricultural water withdrawal,Gambia,2022,0.0392,10^9 m3/year,I,false
+270,Water use,Water withdrawal by sector,Agricultural water withdrawal,Gambia,2023,0.0392,10^9 m3/year,I,false
+268,Water use,Water withdrawal by sector,Agricultural water withdrawal,Georgia,2021,0.74988,10^9 m3/year,A,false
+268,Water use,Water withdrawal by sector,Agricultural water withdrawal,Georgia,2022,0.43396,10^9 m3/year,A,false
+268,Water use,Water withdrawal by sector,Agricultural water withdrawal,Georgia,2023,0.43396,10^9 m3/year,I,false
+276,Water use,Water withdrawal by sector,Agricultural water withdrawal,Germany,2021,0.801231,10^9 m3/year,A,false
+276,Water use,Water withdrawal by sector,Agricultural water withdrawal,Germany,2022,1.059629,10^9 m3/year,A,false
+276,Water use,Water withdrawal by sector,Agricultural water withdrawal,Germany,2023,1.059629,10^9 m3/year,I,false
+288,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ghana,2021,1.07,10^9 m3/year,I,false
+288,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ghana,2022,1.07,10^9 m3/year,I,false
+288,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ghana,2023,1.07,10^9 m3/year,I,false
+300,Water use,Water withdrawal by sector,Agricultural water withdrawal,Greece,2021,8.107,10^9 m3/year,A,false
+300,Water use,Water withdrawal by sector,Agricultural water withdrawal,Greece,2022,7.140838222,10^9 m3/year,A,false
+300,Water use,Water withdrawal by sector,Agricultural water withdrawal,Greece,2023,7.140838222,10^9 m3/year,A,false
+308,Water use,Water withdrawal by sector,Agricultural water withdrawal,Grenada,2021,0.0021,10^9 m3/year,I,false
+308,Water use,Water withdrawal by sector,Agricultural water withdrawal,Grenada,2022,0.0021,10^9 m3/year,I,false
+308,Water use,Water withdrawal by sector,Agricultural water withdrawal,Grenada,2023,0.0021,10^9 m3/year,I,false
+320,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guatemala,2021,1.886,10^9 m3/year,I,false
+320,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guatemala,2022,1.886,10^9 m3/year,I,false
+320,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guatemala,2023,1.886,10^9 m3/year,I,false
+324,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guinea,2021,0.6,10^9 m3/year,I,false
+324,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guinea,2022,0.6,10^9 m3/year,I,false
+324,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guinea,2023,0.6,10^9 m3/year,I,false
+624,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guinea-Bissau,2021,0.144,10^9 m3/year,I,false
+624,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guinea-Bissau,2022,0.144,10^9 m3/year,I,false
+624,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guinea-Bissau,2023,0.144,10^9 m3/year,I,false
+328,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guyana,2021,1.363,10^9 m3/year,I,false
+328,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guyana,2022,1.363,10^9 m3/year,I,false
+328,Water use,Water withdrawal by sector,Agricultural water withdrawal,Guyana,2023,1.363,10^9 m3/year,I,false
+332,Water use,Water withdrawal by sector,Agricultural water withdrawal,Haiti,2021,1.209,10^9 m3/year,I,false
+332,Water use,Water withdrawal by sector,Agricultural water withdrawal,Haiti,2022,1.209,10^9 m3/year,I,false
+332,Water use,Water withdrawal by sector,Agricultural water withdrawal,Haiti,2023,1.209,10^9 m3/year,I,false
+340,Water use,Water withdrawal by sector,Agricultural water withdrawal,Honduras,2021,1.178,10^9 m3/year,I,false
+340,Water use,Water withdrawal by sector,Agricultural water withdrawal,Honduras,2022,1.178,10^9 m3/year,I,false
+340,Water use,Water withdrawal by sector,Agricultural water withdrawal,Honduras,2023,1.178,10^9 m3/year,I,false
+348,Water use,Water withdrawal by sector,Agricultural water withdrawal,Hungary,2021,0.517226,10^9 m3/year,A,false
+348,Water use,Water withdrawal by sector,Agricultural water withdrawal,Hungary,2022,0.548613,10^9 m3/year,A,false
+348,Water use,Water withdrawal by sector,Agricultural water withdrawal,Hungary,2023,0.546,10^9 m3/year,A,false
+352,Water use,Water withdrawal by sector,Agricultural water withdrawal,Iceland,2021,0.0003,10^9 m3/year,I,false
+352,Water use,Water withdrawal by sector,Agricultural water withdrawal,Iceland,2022,0.0003,10^9 m3/year,I,false
+352,Water use,Water withdrawal by sector,Agricultural water withdrawal,Iceland,2023,0.0003,10^9 m3/year,I,false
+356,Water use,Water withdrawal by sector,Agricultural water withdrawal,India,2021,688,10^9 m3/year,I,false
+356,Water use,Water withdrawal by sector,Agricultural water withdrawal,India,2022,688,10^9 m3/year,I,false
+356,Water use,Water withdrawal by sector,Agricultural water withdrawal,India,2023,688,10^9 m3/year,I,false
+360,Water use,Water withdrawal by sector,Agricultural water withdrawal,Indonesia,2021,189.7,10^9 m3/year,I,false
+360,Water use,Water withdrawal by sector,Agricultural water withdrawal,Indonesia,2022,189.7,10^9 m3/year,I,false
+360,Water use,Water withdrawal by sector,Agricultural water withdrawal,Indonesia,2023,189.7,10^9 m3/year,I,false
+364,Water use,Water withdrawal by sector,Agricultural water withdrawal,Iran (Islamic Republic of),2021,86,10^9 m3/year,I,false
+364,Water use,Water withdrawal by sector,Agricultural water withdrawal,Iran (Islamic Republic of),2022,86,10^9 m3/year,I,false
+364,Water use,Water withdrawal by sector,Agricultural water withdrawal,Iran (Islamic Republic of),2023,86,10^9 m3/year,I,false
+368,Water use,Water withdrawal by sector,Agricultural water withdrawal,Iraq,2021,44.882,10^9 m3/year,A,false
+368,Water use,Water withdrawal by sector,Agricultural water withdrawal,Iraq,2022,37.195,10^9 m3/year,A,false
+368,Water use,Water withdrawal by sector,Agricultural water withdrawal,Iraq,2023,37.195,10^9 m3/year,I,false
+372,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ireland,2021,0.04,10^9 m3/year,A,false
+372,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ireland,2022,0.03963,10^9 m3/year,X,false
+372,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ireland,2023,0.046381076,10^9 m3/year,I,false
+376,Water use,Water withdrawal by sector,Agricultural water withdrawal,Israel,2021,1.286,10^9 m3/year,A,false
+376,Water use,Water withdrawal by sector,Agricultural water withdrawal,Israel,2022,1.2146,10^9 m3/year,A,false
+376,Water use,Water withdrawal by sector,Agricultural water withdrawal,Israel,2023,1.262,10^9 m3/year,A,false
+380,Water use,Water withdrawal by sector,Agricultural water withdrawal,Italy,2021,17,10^9 m3/year,I,false
+380,Water use,Water withdrawal by sector,Agricultural water withdrawal,Italy,2022,17,10^9 m3/year,I,false
+380,Water use,Water withdrawal by sector,Agricultural water withdrawal,Italy,2023,17,10^9 m3/year,I,false
+388,Water use,Water withdrawal by sector,Agricultural water withdrawal,Jamaica,2021,0.078971645,10^9 m3/year,A,false
+388,Water use,Water withdrawal by sector,Agricultural water withdrawal,Jamaica,2022,0.078971645,10^9 m3/year,I,false
+388,Water use,Water withdrawal by sector,Agricultural water withdrawal,Jamaica,2023,0.078971645,10^9 m3/year,I,false
+392,Water use,Water withdrawal by sector,Agricultural water withdrawal,Japan,2021,53,10^9 m3/year,A,false
+392,Water use,Water withdrawal by sector,Agricultural water withdrawal,Japan,2022,52.8,10^9 m3/year,A,false
+392,Water use,Water withdrawal by sector,Agricultural water withdrawal,Japan,2023,52.8,10^9 m3/year,I,false
+400,Water use,Water withdrawal by sector,Agricultural water withdrawal,Jordan,2021,0.57061,10^9 m3/year,I,false
+400,Water use,Water withdrawal by sector,Agricultural water withdrawal,Jordan,2022,0.57061,10^9 m3/year,I,false
+400,Water use,Water withdrawal by sector,Agricultural water withdrawal,Jordan,2023,0.57061,10^9 m3/year,I,false
+398,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kazakhstan,2021,14.706,10^9 m3/year,A,false
+398,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kazakhstan,2022,14.264,10^9 m3/year,A,false
+398,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kazakhstan,2023,14.031,10^9 m3/year,A,false
+404,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kenya,2021,3.309603,10^9 m3/year,A,false
+404,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kenya,2022,4.00982,10^9 m3/year,A,false
+404,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kenya,2023,4.308221,10^9 m3/year,A,false
+414,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kuwait,2021,0.7784,10^9 m3/year,I,false
+414,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kuwait,2022,0.7784,10^9 m3/year,I,false
+414,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kuwait,2023,0.7784,10^9 m3/year,I,false
+417,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kyrgyzstan,2021,7.1,10^9 m3/year,I,false
+417,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kyrgyzstan,2022,7.1,10^9 m3/year,I,false
+417,Water use,Water withdrawal by sector,Agricultural water withdrawal,Kyrgyzstan,2023,7.1,10^9 m3/year,I,false
+432,Water use,Water withdrawal by sector,Agricultural water withdrawal,Land Locked Developing Countries,2021,169.587955895,10^9 m3/year,E,true
+432,Water use,Water withdrawal by sector,Agricultural water withdrawal,Land Locked Developing Countries,2022,170.619917295,10^9 m3/year,E,true
+432,Water use,Water withdrawal by sector,Agricultural water withdrawal,Land Locked Developing Countries,2023,170.464156395,10^9 m3/year,E,true
+418,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lao People's Democratic Republic,2021,7.05,10^9 m3/year,I,false
+418,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lao People's Democratic Republic,2022,7.05,10^9 m3/year,I,false
+418,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lao People's Democratic Republic,2023,7.05,10^9 m3/year,I,false
+419,Water use,Water withdrawal by sector,Agricultural water withdrawal,Latin America and the Caribbean,2021,262.465796428,10^9 m3/year,E,true
+419,Water use,Water withdrawal by sector,Agricultural water withdrawal,Latin America and the Caribbean,2022,265.380771428,10^9 m3/year,E,true
+419,Water use,Water withdrawal by sector,Agricultural water withdrawal,Latin America and the Caribbean,2023,263.382081328,10^9 m3/year,E,true
+428,Water use,Water withdrawal by sector,Agricultural water withdrawal,Latvia,2021,0.053007116,10^9 m3/year,A,false
+428,Water use,Water withdrawal by sector,Agricultural water withdrawal,Latvia,2022,0.05009783,10^9 m3/year,A,false
+428,Water use,Water withdrawal by sector,Agricultural water withdrawal,Latvia,2023,0.054816416,10^9 m3/year,A,false
+199,Water use,Water withdrawal by sector,Agricultural water withdrawal,Least Developed Countries,2021,207.3579892,10^9 m3/year,E,true
+199,Water use,Water withdrawal by sector,Agricultural water withdrawal,Least Developed Countries,2022,207.8462892,10^9 m3/year,E,true
+199,Water use,Water withdrawal by sector,Agricultural water withdrawal,Least Developed Countries,2023,199.4011892,10^9 m3/year,E,true
+422,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lebanon,2021,0.7,10^9 m3/year,I,false
+422,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lebanon,2022,0.7,10^9 m3/year,I,false
+422,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lebanon,2023,0.7,10^9 m3/year,I,false
+426,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lesotho,2021,0.0038,10^9 m3/year,I,false
+426,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lesotho,2022,0.0038,10^9 m3/year,I,false
+426,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lesotho,2023,0.0038,10^9 m3/year,I,false
+430,Water use,Water withdrawal by sector,Agricultural water withdrawal,Liberia,2021,0.0123,10^9 m3/year,I,false
+430,Water use,Water withdrawal by sector,Agricultural water withdrawal,Liberia,2022,0.0123,10^9 m3/year,I,false
+430,Water use,Water withdrawal by sector,Agricultural water withdrawal,Liberia,2023,0.0123,10^9 m3/year,I,false
+434,Water use,Water withdrawal by sector,Agricultural water withdrawal,Libya,2021,4.85,10^9 m3/year,I,false
+434,Water use,Water withdrawal by sector,Agricultural water withdrawal,Libya,2022,4.85,10^9 m3/year,I,false
+434,Water use,Water withdrawal by sector,Agricultural water withdrawal,Libya,2023,4.85,10^9 m3/year,I,false
+440,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lithuania,2021,0.05916,10^9 m3/year,X,false
+440,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lithuania,2022,0.05874,10^9 m3/year,X,false
+440,Water use,Water withdrawal by sector,Agricultural water withdrawal,Lithuania,2023,0.05874,10^9 m3/year,I,false
+442,Water use,Water withdrawal by sector,Agricultural water withdrawal,Luxembourg,2021,0.00039,10^9 m3/year,X,false
+442,Water use,Water withdrawal by sector,Agricultural water withdrawal,Luxembourg,2022,0.00049,10^9 m3/year,X,false
+442,Water use,Water withdrawal by sector,Agricultural water withdrawal,Luxembourg,2023,0.00049,10^9 m3/year,I,false
+450,Water use,Water withdrawal by sector,Agricultural water withdrawal,Madagascar,2021,37.64,10^9 m3/year,A,false
+450,Water use,Water withdrawal by sector,Agricultural water withdrawal,Madagascar,2022,38.06,10^9 m3/year,A,false
+450,Water use,Water withdrawal by sector,Agricultural water withdrawal,Madagascar,2023,29.54,10^9 m3/year,A,false
+454,Water use,Water withdrawal by sector,Agricultural water withdrawal,Malawi,2021,1.166,10^9 m3/year,I,false
+454,Water use,Water withdrawal by sector,Agricultural water withdrawal,Malawi,2022,1.166,10^9 m3/year,I,false
+454,Water use,Water withdrawal by sector,Agricultural water withdrawal,Malawi,2023,1.166,10^9 m3/year,I,false
+458,Water use,Water withdrawal by sector,Agricultural water withdrawal,Malaysia,2021,2.505,10^9 m3/year,I,false
+458,Water use,Water withdrawal by sector,Agricultural water withdrawal,Malaysia,2022,2.505,10^9 m3/year,I,false
+458,Water use,Water withdrawal by sector,Agricultural water withdrawal,Malaysia,2023,2.505,10^9 m3/year,I,false
+462,Water use,Water withdrawal by sector,Agricultural water withdrawal,Maldives,2021,0.000268194,10^9 m3/year,A,false
+462,Water use,Water withdrawal by sector,Agricultural water withdrawal,Maldives,2022,0.000268194,10^9 m3/year,I,false
+462,Water use,Water withdrawal by sector,Agricultural water withdrawal,Maldives,2023,0.000268194,10^9 m3/year,I,false
+466,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mali,2021,5.075,10^9 m3/year,I,false
+466,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mali,2022,5.075,10^9 m3/year,I,false
+466,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mali,2023,5.075,10^9 m3/year,I,false
+470,Water use,Water withdrawal by sector,Agricultural water withdrawal,Malta,2021,0.022631342,10^9 m3/year,A,false
+470,Water use,Water withdrawal by sector,Agricultural water withdrawal,Malta,2022,0.021327019,10^9 m3/year,A,false
+470,Water use,Water withdrawal by sector,Agricultural water withdrawal,Malta,2023,0.021245154,10^9 m3/year,A,false
+478,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mauritania,2021,1.223,10^9 m3/year,I,false
+478,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mauritania,2022,1.223,10^9 m3/year,I,false
+478,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mauritania,2023,1.223,10^9 m3/year,I,false
+480,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mauritius,2021,0.301,10^9 m3/year,A,false
+480,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mauritius,2022,0.303,10^9 m3/year,A,false
+480,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mauritius,2023,0.296,10^9 m3/year,A,false
+484,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mexico,2021,68.07,10^9 m3/year,A,false
+484,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mexico,2022,68.523,10^9 m3/year,A,false
+484,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mexico,2023,68.521,10^9 m3/year,A,false
+492,Water use,Water withdrawal by sector,Agricultural water withdrawal,Monaco,2021,0,10^9 m3/year,I,false
+492,Water use,Water withdrawal by sector,Agricultural water withdrawal,Monaco,2022,0,10^9 m3/year,I,false
+492,Water use,Water withdrawal by sector,Agricultural water withdrawal,Monaco,2023,0,10^9 m3/year,I,false
+496,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mongolia,2021,0.2509,10^9 m3/year,I,false
+496,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mongolia,2022,0.2509,10^9 m3/year,I,false
+496,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mongolia,2023,0.2509,10^9 m3/year,I,false
+499,Water use,Water withdrawal by sector,Agricultural water withdrawal,Montenegro,2021,0.00817,10^9 m3/year,X,false
+499,Water use,Water withdrawal by sector,Agricultural water withdrawal,Montenegro,2022,0.00676,10^9 m3/year,X,false
+499,Water use,Water withdrawal by sector,Agricultural water withdrawal,Montenegro,2023,0.00676,10^9 m3/year,I,false
+504,Water use,Water withdrawal by sector,Agricultural water withdrawal,Morocco,2021,9.156,10^9 m3/year,I,false
+504,Water use,Water withdrawal by sector,Agricultural water withdrawal,Morocco,2022,9.156,10^9 m3/year,I,false
+504,Water use,Water withdrawal by sector,Agricultural water withdrawal,Morocco,2023,9.156,10^9 m3/year,I,false
+508,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mozambique,2021,1.076,10^9 m3/year,I,false
+508,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mozambique,2022,1.076,10^9 m3/year,I,false
+508,Water use,Water withdrawal by sector,Agricultural water withdrawal,Mozambique,2023,1.076,10^9 m3/year,I,false
+104,Water use,Water withdrawal by sector,Agricultural water withdrawal,Myanmar,2021,29.57,10^9 m3/year,I,false
+104,Water use,Water withdrawal by sector,Agricultural water withdrawal,Myanmar,2022,29.57,10^9 m3/year,I,false
+104,Water use,Water withdrawal by sector,Agricultural water withdrawal,Myanmar,2023,29.57,10^9 m3/year,I,false
+516,Water use,Water withdrawal by sector,Agricultural water withdrawal,Namibia,2021,0.201,10^9 m3/year,I,false
+516,Water use,Water withdrawal by sector,Agricultural water withdrawal,Namibia,2022,0.201,10^9 m3/year,I,false
+516,Water use,Water withdrawal by sector,Agricultural water withdrawal,Namibia,2023,0.201,10^9 m3/year,I,false
+524,Water use,Water withdrawal by sector,Agricultural water withdrawal,Nepal,2021,9.32,10^9 m3/year,I,false
+524,Water use,Water withdrawal by sector,Agricultural water withdrawal,Nepal,2022,9.32,10^9 m3/year,I,false
+524,Water use,Water withdrawal by sector,Agricultural water withdrawal,Nepal,2023,9.32,10^9 m3/year,I,false
+528,Water use,Water withdrawal by sector,Agricultural water withdrawal,Netherlands (Kingdom of the),2021,0.083827,10^9 m3/year,A,false
+528,Water use,Water withdrawal by sector,Agricultural water withdrawal,Netherlands (Kingdom of the),2022,0.265086,10^9 m3/year,A,false
+528,Water use,Water withdrawal by sector,Agricultural water withdrawal,Netherlands (Kingdom of the),2023,0.16732,10^9 m3/year,A,false
+554,Water use,Water withdrawal by sector,Agricultural water withdrawal,New Zealand,2021,3.207,10^9 m3/year,I,false
+554,Water use,Water withdrawal by sector,Agricultural water withdrawal,New Zealand,2022,3.207,10^9 m3/year,I,false
+554,Water use,Water withdrawal by sector,Agricultural water withdrawal,New Zealand,2023,3.207,10^9 m3/year,I,false
+558,Water use,Water withdrawal by sector,Agricultural water withdrawal,Nicaragua,2021,1.084,10^9 m3/year,I,false
+558,Water use,Water withdrawal by sector,Agricultural water withdrawal,Nicaragua,2022,1.084,10^9 m3/year,I,false
+558,Water use,Water withdrawal by sector,Agricultural water withdrawal,Nicaragua,2023,1.084,10^9 m3/year,I,false
+562,Water use,Water withdrawal by sector,Agricultural water withdrawal,Niger,2021,2.351407,10^9 m3/year,I,false
+562,Water use,Water withdrawal by sector,Agricultural water withdrawal,Niger,2022,2.351407,10^9 m3/year,I,false
+562,Water use,Water withdrawal by sector,Agricultural water withdrawal,Niger,2023,2.351407,10^9 m3/year,I,false
+566,Water use,Water withdrawal by sector,Agricultural water withdrawal,Nigeria,2021,5.51,10^9 m3/year,I,false
+566,Water use,Water withdrawal by sector,Agricultural water withdrawal,Nigeria,2022,5.51,10^9 m3/year,I,false
+566,Water use,Water withdrawal by sector,Agricultural water withdrawal,Nigeria,2023,5.51,10^9 m3/year,I,false
+807,Water use,Water withdrawal by sector,Agricultural water withdrawal,North Macedonia,2021,0.139,10^9 m3/year,I,false
+807,Water use,Water withdrawal by sector,Agricultural water withdrawal,North Macedonia,2022,0.139,10^9 m3/year,I,false
+807,Water use,Water withdrawal by sector,Agricultural water withdrawal,North Macedonia,2023,0.139,10^9 m3/year,I,false
+15,Water use,Water withdrawal by sector,Agricultural water withdrawal,Northern Africa,2021,111.178,10^9 m3/year,E,true
+15,Water use,Water withdrawal by sector,Agricultural water withdrawal,Northern Africa,2022,111.467,10^9 m3/year,E,true
+15,Water use,Water withdrawal by sector,Agricultural water withdrawal,Northern Africa,2023,111.542,10^9 m3/year,E,true
+747,Water use,Water withdrawal by sector,Agricultural water withdrawal,Northern Africa and Western Asia,2021,271.8642767,10^9 m3/year,E,true
+747,Water use,Water withdrawal by sector,Agricultural water withdrawal,Northern Africa and Western Asia,2022,266.736830824,10^9 m3/year,E,true
+747,Water use,Water withdrawal by sector,Agricultural water withdrawal,Northern Africa and Western Asia,2023,266.497546,10^9 m3/year,E,true
+21,Water use,Water withdrawal by sector,Agricultural water withdrawal,Northern America,2021,180.059,10^9 m3/year,E,true
+21,Water use,Water withdrawal by sector,Agricultural water withdrawal,Northern America,2022,180.059,10^9 m3/year,E,true
+21,Water use,Water withdrawal by sector,Agricultural water withdrawal,Northern America,2023,180.059,10^9 m3/year,E,true
+578,Water use,Water withdrawal by sector,Agricultural water withdrawal,Norway,2021,0.8449,10^9 m3/year,I,false
+578,Water use,Water withdrawal by sector,Agricultural water withdrawal,Norway,2022,0.8449,10^9 m3/year,I,false
+578,Water use,Water withdrawal by sector,Agricultural water withdrawal,Norway,2023,0.8449,10^9 m3/year,I,false
+9,Water use,Water withdrawal by sector,Agricultural water withdrawal,Oceania,2021,14.098,10^9 m3/year,E,true
+9,Water use,Water withdrawal by sector,Agricultural water withdrawal,Oceania,2022,14.428,10^9 m3/year,E,true
+9,Water use,Water withdrawal by sector,Agricultural water withdrawal,Oceania,2023,14.858,10^9 m3/year,E,true
+543,Water use,Water withdrawal by sector,Agricultural water withdrawal,Oceania (excluding Australia and New Zealand),2021,0.051,10^9 m3/year,E,true
+543,Water use,Water withdrawal by sector,Agricultural water withdrawal,Oceania (excluding Australia and New Zealand),2022,0.051,10^9 m3/year,E,true
+543,Water use,Water withdrawal by sector,Agricultural water withdrawal,Oceania (excluding Australia and New Zealand),2023,0.051,10^9 m3/year,E,true
+512,Water use,Water withdrawal by sector,Agricultural water withdrawal,Oman,2021,1.547,10^9 m3/year,I,false
+512,Water use,Water withdrawal by sector,Agricultural water withdrawal,Oman,2022,1.547,10^9 m3/year,I,false
+512,Water use,Water withdrawal by sector,Agricultural water withdrawal,Oman,2023,1.547,10^9 m3/year,I,false
+586,Water use,Water withdrawal by sector,Agricultural water withdrawal,Pakistan,2021,172.4,10^9 m3/year,I,false
+586,Water use,Water withdrawal by sector,Agricultural water withdrawal,Pakistan,2022,172.4,10^9 m3/year,I,false
+586,Water use,Water withdrawal by sector,Agricultural water withdrawal,Pakistan,2023,172.4,10^9 m3/year,I,false
+275,Water use,Water withdrawal by sector,Agricultural water withdrawal,Palestine,2021,0.152,10^9 m3/year,A,false
+275,Water use,Water withdrawal by sector,Agricultural water withdrawal,Palestine,2022,0.158,10^9 m3/year,A,false
+275,Water use,Water withdrawal by sector,Agricultural water withdrawal,Palestine,2023,0.139,10^9 m3/year,A,false
+591,Water use,Water withdrawal by sector,Agricultural water withdrawal,Panama,2021,0.4461,10^9 m3/year,I,false
+591,Water use,Water withdrawal by sector,Agricultural water withdrawal,Panama,2022,0.4461,10^9 m3/year,I,false
+591,Water use,Water withdrawal by sector,Agricultural water withdrawal,Panama,2023,0.4461,10^9 m3/year,I,false
+598,Water use,Water withdrawal by sector,Agricultural water withdrawal,Papua New Guinea,2021,0.001,10^9 m3/year,I,false
+598,Water use,Water withdrawal by sector,Agricultural water withdrawal,Papua New Guinea,2022,0.001,10^9 m3/year,I,false
+598,Water use,Water withdrawal by sector,Agricultural water withdrawal,Papua New Guinea,2023,0.001,10^9 m3/year,I,false
+600,Water use,Water withdrawal by sector,Agricultural water withdrawal,Paraguay,2021,1.897,10^9 m3/year,I,false
+600,Water use,Water withdrawal by sector,Agricultural water withdrawal,Paraguay,2022,1.897,10^9 m3/year,I,false
+600,Water use,Water withdrawal by sector,Agricultural water withdrawal,Paraguay,2023,1.897,10^9 m3/year,I,false
+604,Water use,Water withdrawal by sector,Agricultural water withdrawal,Peru,2021,21.112,10^9 m3/year,A,false
+604,Water use,Water withdrawal by sector,Agricultural water withdrawal,Peru,2022,22.019,10^9 m3/year,A,false
+604,Water use,Water withdrawal by sector,Agricultural water withdrawal,Peru,2023,23.1145,10^9 m3/year,I,false
+608,Water use,Water withdrawal by sector,Agricultural water withdrawal,Philippines,2021,67.8483457,10^9 m3/year,A,false
+608,Water use,Water withdrawal by sector,Agricultural water withdrawal,Philippines,2022,67.93720697,10^9 m3/year,A,false
+608,Water use,Water withdrawal by sector,Agricultural water withdrawal,Philippines,2023,67.96506348,10^9 m3/year,A,false
+616,Water use,Water withdrawal by sector,Agricultural water withdrawal,Poland,2021,1.35634,10^9 m3/year,X,false
+616,Water use,Water withdrawal by sector,Agricultural water withdrawal,Poland,2022,1.28022,10^9 m3/year,X,false
+616,Water use,Water withdrawal by sector,Agricultural water withdrawal,Poland,2023,1.28022,10^9 m3/year,I,false
+620,Water use,Water withdrawal by sector,Agricultural water withdrawal,Portugal,2021,3.41948,10^9 m3/year,I,false
+620,Water use,Water withdrawal by sector,Agricultural water withdrawal,Portugal,2022,3.41948,10^9 m3/year,I,false
+620,Water use,Water withdrawal by sector,Agricultural water withdrawal,Portugal,2023,3.41948,10^9 m3/year,I,false
+630,Water use,Water withdrawal by sector,Agricultural water withdrawal,Puerto Rico,2021,0.1135,10^9 m3/year,I,false
+630,Water use,Water withdrawal by sector,Agricultural water withdrawal,Puerto Rico,2022,0.1135,10^9 m3/year,I,false
+630,Water use,Water withdrawal by sector,Agricultural water withdrawal,Puerto Rico,2023,0.1135,10^9 m3/year,I,false
+634,Water use,Water withdrawal by sector,Agricultural water withdrawal,Qatar,2021,0.3219567,10^9 m3/year,A,false
+634,Water use,Water withdrawal by sector,Agricultural water withdrawal,Qatar,2022,0.311156,10^9 m3/year,A,false
+634,Water use,Water withdrawal by sector,Agricultural water withdrawal,Qatar,2023,0.311156,10^9 m3/year,I,false
+410,Water use,Water withdrawal by sector,Agricultural water withdrawal,Republic of Korea,2021,15.96,10^9 m3/year,I,false
+410,Water use,Water withdrawal by sector,Agricultural water withdrawal,Republic of Korea,2022,15.96,10^9 m3/year,I,false
+410,Water use,Water withdrawal by sector,Agricultural water withdrawal,Republic of Korea,2023,15.96,10^9 m3/year,I,false
+498,Water use,Water withdrawal by sector,Agricultural water withdrawal,Republic of Moldova,2021,0.055,10^9 m3/year,I,false
+498,Water use,Water withdrawal by sector,Agricultural water withdrawal,Republic of Moldova,2022,0.055,10^9 m3/year,I,false
+498,Water use,Water withdrawal by sector,Agricultural water withdrawal,Republic of Moldova,2023,0.055,10^9 m3/year,I,false
+642,Water use,Water withdrawal by sector,Agricultural water withdrawal,Romania,2021,2.48,10^9 m3/year,A,false
+642,Water use,Water withdrawal by sector,Agricultural water withdrawal,Romania,2022,2.955,10^9 m3/year,A,false
+642,Water use,Water withdrawal by sector,Agricultural water withdrawal,Romania,2023,2.789,10^9 m3/year,A,false
+643,Water use,Water withdrawal by sector,Agricultural water withdrawal,Russian Federation,2021,18.64,10^9 m3/year,I,false
+643,Water use,Water withdrawal by sector,Agricultural water withdrawal,Russian Federation,2022,18.64,10^9 m3/year,I,false
+643,Water use,Water withdrawal by sector,Agricultural water withdrawal,Russian Federation,2023,18.64,10^9 m3/year,I,false
+646,Water use,Water withdrawal by sector,Agricultural water withdrawal,Rwanda,2021,0.361,10^9 m3/year,A,false
+646,Water use,Water withdrawal by sector,Agricultural water withdrawal,Rwanda,2022,0.361,10^9 m3/year,I,false
+646,Water use,Water withdrawal by sector,Agricultural water withdrawal,Rwanda,2023,0.361,10^9 m3/year,I,false
+659,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saint Kitts and Nevis,2021,0.0002,10^9 m3/year,I,false
+659,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saint Kitts and Nevis,2022,0.0002,10^9 m3/year,I,false
+659,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saint Kitts and Nevis,2023,0.0002,10^9 m3/year,I,false
+662,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saint Lucia,2021,0.0304,10^9 m3/year,I,false
+662,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saint Lucia,2022,0.0304,10^9 m3/year,I,false
+662,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saint Lucia,2023,0.0304,10^9 m3/year,I,false
+670,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saint Vincent and the Grenadines,2021,0,10^9 m3/year,I,false
+670,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saint Vincent and the Grenadines,2022,0,10^9 m3/year,I,false
+670,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saint Vincent and the Grenadines,2023,0,10^9 m3/year,I,false
+678,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sao Tome and Principe,2021,0.0256,10^9 m3/year,I,false
+678,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sao Tome and Principe,2022,0.0256,10^9 m3/year,I,false
+678,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sao Tome and Principe,2023,0.0256,10^9 m3/year,I,false
+682,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saudi Arabia,2021,21.2,10^9 m3/year,I,false
+682,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saudi Arabia,2022,21.2,10^9 m3/year,I,false
+682,Water use,Water withdrawal by sector,Agricultural water withdrawal,Saudi Arabia,2023,21.2,10^9 m3/year,I,false
+686,Water use,Water withdrawal by sector,Agricultural water withdrawal,Senegal,2021,2.7586822,10^9 m3/year,I,false
+686,Water use,Water withdrawal by sector,Agricultural water withdrawal,Senegal,2022,2.7586822,10^9 m3/year,I,false
+686,Water use,Water withdrawal by sector,Agricultural water withdrawal,Senegal,2023,2.7586822,10^9 m3/year,I,false
+688,Water use,Water withdrawal by sector,Agricultural water withdrawal,Serbia,2021,0.412,10^9 m3/year,A,false
+688,Water use,Water withdrawal by sector,Agricultural water withdrawal,Serbia,2022,0.422,10^9 m3/year,A,false
+688,Water use,Water withdrawal by sector,Agricultural water withdrawal,Serbia,2023,0.437,10^9 m3/year,A,false
+690,Water use,Water withdrawal by sector,Agricultural water withdrawal,Seychelles,2021,0.0009,10^9 m3/year,I,false
+690,Water use,Water withdrawal by sector,Agricultural water withdrawal,Seychelles,2022,0.0009,10^9 m3/year,I,false
+690,Water use,Water withdrawal by sector,Agricultural water withdrawal,Seychelles,2023,0.0009,10^9 m3/year,I,false
+694,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sierra Leone,2021,0.0457,10^9 m3/year,I,false
+694,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sierra Leone,2022,0.0457,10^9 m3/year,I,false
+694,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sierra Leone,2023,0.0457,10^9 m3/year,I,false
+702,Water use,Water withdrawal by sector,Agricultural water withdrawal,Singapore,2021,0.013947063,10^9 m3/year,I,false
+702,Water use,Water withdrawal by sector,Agricultural water withdrawal,Singapore,2022,0.001494126,10^9 m3/year,A,false
+702,Water use,Water withdrawal by sector,Agricultural water withdrawal,Singapore,2023,0.001494126,10^9 m3/year,I,false
+703,Water use,Water withdrawal by sector,Agricultural water withdrawal,Slovakia,2021,0.0304301,10^9 m3/year,A,false
+703,Water use,Water withdrawal by sector,Agricultural water withdrawal,Slovakia,2022,0.03285105,10^9 m3/year,A,false
+703,Water use,Water withdrawal by sector,Agricultural water withdrawal,Slovakia,2023,0.03285105,10^9 m3/year,I,false
+705,Water use,Water withdrawal by sector,Agricultural water withdrawal,Slovenia,2021,0.003,10^9 m3/year,A,false
+705,Water use,Water withdrawal by sector,Agricultural water withdrawal,Slovenia,2022,0.0034,10^9 m3/year,A,false
+705,Water use,Water withdrawal by sector,Agricultural water withdrawal,Slovenia,2023,0.0047,10^9 m3/year,A,false
+722,Water use,Water withdrawal by sector,Agricultural water withdrawal,Small Island Developing States,2021,17.174686413,10^9 m3/year,E,true
+722,Water use,Water withdrawal by sector,Agricultural water withdrawal,Small Island Developing States,2022,17.158181326,10^9 m3/year,E,true
+722,Water use,Water withdrawal by sector,Agricultural water withdrawal,Small Island Developing States,2023,17.151181326,10^9 m3/year,E,true
+706,Water use,Water withdrawal by sector,Agricultural water withdrawal,Somalia,2021,3.281,10^9 m3/year,I,false
+706,Water use,Water withdrawal by sector,Agricultural water withdrawal,Somalia,2022,3.281,10^9 m3/year,I,false
+706,Water use,Water withdrawal by sector,Agricultural water withdrawal,Somalia,2023,3.281,10^9 m3/year,I,false
+710,Water use,Water withdrawal by sector,Agricultural water withdrawal,South Africa,2021,11.842,10^9 m3/year,A,false
+710,Water use,Water withdrawal by sector,Agricultural water withdrawal,South Africa,2022,11.839,10^9 m3/year,A,false
+710,Water use,Water withdrawal by sector,Agricultural water withdrawal,South Africa,2023,11.904421,10^9 m3/year,A,false
+728,Water use,Water withdrawal by sector,Agricultural water withdrawal,South Sudan,2021,0.24,10^9 m3/year,I,false
+728,Water use,Water withdrawal by sector,Agricultural water withdrawal,South Sudan,2022,0.24,10^9 m3/year,I,false
+728,Water use,Water withdrawal by sector,Agricultural water withdrawal,South Sudan,2023,0.24,10^9 m3/year,I,false
+35,Water use,Water withdrawal by sector,Agricultural water withdrawal,South-eastern Asia,2021,427.622074904,10^9 m3/year,E,true
+35,Water use,Water withdrawal by sector,Agricultural water withdrawal,South-eastern Asia,2022,427.698483237,10^9 m3/year,E,true
+35,Water use,Water withdrawal by sector,Agricultural water withdrawal,South-eastern Asia,2023,427.726339747,10^9 m3/year,E,true
+34,Water use,Water withdrawal by sector,Agricultural water withdrawal,Southern Asia,2021,1018.848268194,10^9 m3/year,E,true
+34,Water use,Water withdrawal by sector,Agricultural water withdrawal,Southern Asia,2022,1018.848268194,10^9 m3/year,E,true
+34,Water use,Water withdrawal by sector,Agricultural water withdrawal,Southern Asia,2023,1018.848268194,10^9 m3/year,E,true
+724,Water use,Water withdrawal by sector,Agricultural water withdrawal,Spain,2021,18.96,10^9 m3/year,I,false
+724,Water use,Water withdrawal by sector,Agricultural water withdrawal,Spain,2022,18.96,10^9 m3/year,I,false
+724,Water use,Water withdrawal by sector,Agricultural water withdrawal,Spain,2023,18.96,10^9 m3/year,I,false
+144,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sri Lanka,2021,11.31,10^9 m3/year,I,false
+144,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sri Lanka,2022,11.31,10^9 m3/year,I,false
+144,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sri Lanka,2023,11.31,10^9 m3/year,I,false
+202,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sub-Saharan Africa,2021,105.585310605,10^9 m3/year,E,true
+202,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sub-Saharan Africa,2022,106.748436855,10^9 m3/year,E,true
+202,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sub-Saharan Africa,2023,98.662497955,10^9 m3/year,E,true
+729,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sudan,2021,25.91,10^9 m3/year,I,false
+729,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sudan,2022,25.91,10^9 m3/year,I,false
+729,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sudan,2023,25.91,10^9 m3/year,I,false
+740,Water use,Water withdrawal by sector,Agricultural water withdrawal,Suriname,2021,0.4311,10^9 m3/year,I,false
+740,Water use,Water withdrawal by sector,Agricultural water withdrawal,Suriname,2022,0.4311,10^9 m3/year,I,false
+740,Water use,Water withdrawal by sector,Agricultural water withdrawal,Suriname,2023,0.4311,10^9 m3/year,I,false
+752,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sweden,2021,0.102,10^9 m3/year,I,false
+752,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sweden,2022,0.102,10^9 m3/year,I,false
+752,Water use,Water withdrawal by sector,Agricultural water withdrawal,Sweden,2023,0.102,10^9 m3/year,I,false
+756,Water use,Water withdrawal by sector,Agricultural water withdrawal,Switzerland,2021,0.1601,10^9 m3/year,I,false
+756,Water use,Water withdrawal by sector,Agricultural water withdrawal,Switzerland,2022,0.1601,10^9 m3/year,I,false
+756,Water use,Water withdrawal by sector,Agricultural water withdrawal,Switzerland,2023,0.1601,10^9 m3/year,I,false
+760,Water use,Water withdrawal by sector,Agricultural water withdrawal,Syrian Arab Republic,2021,14.67,10^9 m3/year,I,false
+760,Water use,Water withdrawal by sector,Agricultural water withdrawal,Syrian Arab Republic,2022,14.67,10^9 m3/year,I,false
+760,Water use,Water withdrawal by sector,Agricultural water withdrawal,Syrian Arab Republic,2023,14.67,10^9 m3/year,I,false
+762,Water use,Water withdrawal by sector,Agricultural water withdrawal,Tajikistan,2021,7.378,10^9 m3/year,I,false
+762,Water use,Water withdrawal by sector,Agricultural water withdrawal,Tajikistan,2022,7.378,10^9 m3/year,I,false
+762,Water use,Water withdrawal by sector,Agricultural water withdrawal,Tajikistan,2023,7.378,10^9 m3/year,I,false
+764,Water use,Water withdrawal by sector,Agricultural water withdrawal,Thailand,2021,51.79,10^9 m3/year,I,false
+764,Water use,Water withdrawal by sector,Agricultural water withdrawal,Thailand,2022,51.79,10^9 m3/year,I,false
+764,Water use,Water withdrawal by sector,Agricultural water withdrawal,Thailand,2023,51.79,10^9 m3/year,I,false
+626,Water use,Water withdrawal by sector,Agricultural water withdrawal,Timor-Leste,2021,1.071,10^9 m3/year,I,false
+626,Water use,Water withdrawal by sector,Agricultural water withdrawal,Timor-Leste,2022,1.071,10^9 m3/year,I,false
+626,Water use,Water withdrawal by sector,Agricultural water withdrawal,Timor-Leste,2023,1.071,10^9 m3/year,I,false
+768,Water use,Water withdrawal by sector,Agricultural water withdrawal,Togo,2021,0.076,10^9 m3/year,I,false
+768,Water use,Water withdrawal by sector,Agricultural water withdrawal,Togo,2022,0.076,10^9 m3/year,I,false
+768,Water use,Water withdrawal by sector,Agricultural water withdrawal,Togo,2023,0.076,10^9 m3/year,I,false
+780,Water use,Water withdrawal by sector,Agricultural water withdrawal,Trinidad and Tobago,2021,0.0167,10^9 m3/year,I,false
+780,Water use,Water withdrawal by sector,Agricultural water withdrawal,Trinidad and Tobago,2022,0.0167,10^9 m3/year,I,false
+780,Water use,Water withdrawal by sector,Agricultural water withdrawal,Trinidad and Tobago,2023,0.0167,10^9 m3/year,I,false
+788,Water use,Water withdrawal by sector,Agricultural water withdrawal,Tunisia,2021,2.78,10^9 m3/year,A,false
+788,Water use,Water withdrawal by sector,Agricultural water withdrawal,Tunisia,2022,2.81,10^9 m3/year,A,false
+788,Water use,Water withdrawal by sector,Agricultural water withdrawal,Tunisia,2023,2.885,10^9 m3/year,A,false
+795,Water use,Water withdrawal by sector,Agricultural water withdrawal,Turkmenistan,2021,16.1196,10^9 m3/year,I,false
+795,Water use,Water withdrawal by sector,Agricultural water withdrawal,Turkmenistan,2022,16.1196,10^9 m3/year,I,false
+795,Water use,Water withdrawal by sector,Agricultural water withdrawal,Turkmenistan,2023,16.1196,10^9 m3/year,I,false
+792,Water use,Water withdrawal by sector,Agricultural water withdrawal,Türkiye,2021,53.81273,10^9 m3/year,A,false
+792,Water use,Water withdrawal by sector,Agricultural water withdrawal,Türkiye,2022,56.12672,10^9 m3/year,A,false
+792,Water use,Water withdrawal by sector,Agricultural water withdrawal,Türkiye,2023,56.12672,10^9 m3/year,I,false
+800,Water use,Water withdrawal by sector,Agricultural water withdrawal,Uganda,2021,0.259,10^9 m3/year,I,false
+800,Water use,Water withdrawal by sector,Agricultural water withdrawal,Uganda,2022,0.259,10^9 m3/year,I,false
+800,Water use,Water withdrawal by sector,Agricultural water withdrawal,Uganda,2023,0.259,10^9 m3/year,I,false
+804,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ukraine,2021,2.437,10^9 m3/year,A,false
+804,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ukraine,2022,1.031,10^9 m3/year,A,false
+804,Water use,Water withdrawal by sector,Agricultural water withdrawal,Ukraine,2023,1.606,10^9 m3/year,A,false
+784,Water use,Water withdrawal by sector,Agricultural water withdrawal,United Arab Emirates,2021,2.238,10^9 m3/year,A,false
+784,Water use,Water withdrawal by sector,Agricultural water withdrawal,United Arab Emirates,2022,2.465684824,10^9 m3/year,A,false
+784,Water use,Water withdrawal by sector,Agricultural water withdrawal,United Arab Emirates,2023,2.119,10^9 m3/year,A,false
+826,Water use,Water withdrawal by sector,Agricultural water withdrawal,United Kingdom of Great Britain and Northern Ireland,2021,1.183,10^9 m3/year,I,false
+826,Water use,Water withdrawal by sector,Agricultural water withdrawal,United Kingdom of Great Britain and Northern Ireland,2022,1.183,10^9 m3/year,I,false
+826,Water use,Water withdrawal by sector,Agricultural water withdrawal,United Kingdom of Great Britain and Northern Ireland,2023,1.183,10^9 m3/year,I,false
+834,Water use,Water withdrawal by sector,Agricultural water withdrawal,United Republic of Tanzania,2021,4.632,10^9 m3/year,I,false
+834,Water use,Water withdrawal by sector,Agricultural water withdrawal,United Republic of Tanzania,2022,4.632,10^9 m3/year,I,false
+834,Water use,Water withdrawal by sector,Agricultural water withdrawal,United Republic of Tanzania,2023,4.632,10^9 m3/year,I,false
+840,Water use,Water withdrawal by sector,Agricultural water withdrawal,United States of America,2021,176.2,10^9 m3/year,I,false
+840,Water use,Water withdrawal by sector,Agricultural water withdrawal,United States of America,2022,176.2,10^9 m3/year,I,false
+840,Water use,Water withdrawal by sector,Agricultural water withdrawal,United States of America,2023,176.2,10^9 m3/year,I,false
+858,Water use,Water withdrawal by sector,Agricultural water withdrawal,Uruguay,2021,3.4482156,10^9 m3/year,A,false
+858,Water use,Water withdrawal by sector,Agricultural water withdrawal,Uruguay,2022,3.4793246,10^9 m3/year,A,false
+858,Water use,Water withdrawal by sector,Agricultural water withdrawal,Uruguay,2023,3.4315045,10^9 m3/year,A,false
+860,Water use,Water withdrawal by sector,Agricultural water withdrawal,Uzbekistan,2021,39.7,10^9 m3/year,A,false
+860,Water use,Water withdrawal by sector,Agricultural water withdrawal,Uzbekistan,2022,41,10^9 m3/year,A,false
+860,Water use,Water withdrawal by sector,Agricultural water withdrawal,Uzbekistan,2023,41,10^9 m3/year,I,false
+862,Water use,Water withdrawal by sector,Agricultural water withdrawal,Venezuela (Bolivarian Republic of),2021,16.71,10^9 m3/year,I,false
+862,Water use,Water withdrawal by sector,Agricultural water withdrawal,Venezuela (Bolivarian Republic of),2022,16.71,10^9 m3/year,I,false
+862,Water use,Water withdrawal by sector,Agricultural water withdrawal,Venezuela (Bolivarian Republic of),2023,16.71,10^9 m3/year,I,false
+704,Water use,Water withdrawal by sector,Agricultural water withdrawal,Viet Nam,2021,76.015482141,10^9 m3/year,I,false
+704,Water use,Water withdrawal by sector,Agricultural water withdrawal,Viet Nam,2022,76.015482141,10^9 m3/year,I,false
+704,Water use,Water withdrawal by sector,Agricultural water withdrawal,Viet Nam,2023,76.015482141,10^9 m3/year,I,false
+145,Water use,Water withdrawal by sector,Agricultural water withdrawal,Western Asia,2021,160.6862767,10^9 m3/year,E,true
+145,Water use,Water withdrawal by sector,Agricultural water withdrawal,Western Asia,2022,155.269830824,10^9 m3/year,E,true
+145,Water use,Water withdrawal by sector,Agricultural water withdrawal,Western Asia,2023,154.955546,10^9 m3/year,E,true
+1,Water use,Water withdrawal by sector,Agricultural water withdrawal,World,2021,2888.810777758,10^9 m3/year,E,true
+1,Water use,Water withdrawal by sector,Agricultural water withdrawal,World,2022,2902.152667777,10^9 m3/year,E,true
+1,Water use,Water withdrawal by sector,Agricultural water withdrawal,World,2023,2891.785313799,10^9 m3/year,E,true
+887,Water use,Water withdrawal by sector,Agricultural water withdrawal,Yemen,2021,3.235,10^9 m3/year,I,false
+887,Water use,Water withdrawal by sector,Agricultural water withdrawal,Yemen,2022,3.235,10^9 m3/year,I,false
+887,Water use,Water withdrawal by sector,Agricultural water withdrawal,Yemen,2023,3.235,10^9 m3/year,I,false
+894,Water use,Water withdrawal by sector,Agricultural water withdrawal,Zambia,2021,3.5927,10^9 m3/year,A,false
+894,Water use,Water withdrawal by sector,Agricultural water withdrawal,Zambia,2022,3.661,10^9 m3/year,A,false
+894,Water use,Water withdrawal by sector,Agricultural water withdrawal,Zambia,2023,3.7359,10^9 m3/year,A,false
+716,Water use,Water withdrawal by sector,Agricultural water withdrawal,Zimbabwe,2021,4.281249395,10^9 m3/year,I,false
+716,Water use,Water withdrawal by sector,Agricultural water withdrawal,Zimbabwe,2022,4.281249395,10^9 m3/year,I,false
+716,Water use,Water withdrawal by sector,Agricultural water withdrawal,Zimbabwe,2023,4.281249395,10^9 m3/year,I,false

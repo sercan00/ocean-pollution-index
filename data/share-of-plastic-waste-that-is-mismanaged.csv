@@ -1,0 +1,201 @@
+Entity,Code,Year,Share of waste mismanaged from total regional waste
+Americas (excl. USA),,2000,32.366478
+Americas (excl. USA),,2001,32.316288
+Americas (excl. USA),,2002,32.274937
+Americas (excl. USA),,2003,32.21104
+Americas (excl. USA),,2004,32.14493
+Americas (excl. USA),,2005,32.050804
+Americas (excl. USA),,2006,31.962135
+Americas (excl. USA),,2007,31.860903
+Americas (excl. USA),,2008,31.693562
+Americas (excl. USA),,2009,31.54849
+Americas (excl. USA),,2010,31.383505
+Americas (excl. USA),,2011,31.184473
+Americas (excl. USA),,2012,30.981876
+Americas (excl. USA),,2013,30.75433
+Americas (excl. USA),,2014,30.537634
+Americas (excl. USA),,2015,30.253029
+Americas (excl. USA),,2016,29.86235
+Americas (excl. USA),,2017,29.4964
+Americas (excl. USA),,2018,29.118078
+Americas (excl. USA),,2019,28.854757
+Asia (excl. China and India),,2000,36.550335
+Asia (excl. China and India),,2001,36.53316
+Asia (excl. China and India),,2002,36.484272
+Asia (excl. China and India),,2003,36.420143
+Asia (excl. China and India),,2004,36.334866
+Asia (excl. China and India),,2005,36.239277
+Asia (excl. China and India),,2006,36.120438
+Asia (excl. China and India),,2007,35.98788
+Asia (excl. China and India),,2008,35.881344
+Asia (excl. China and India),,2009,35.742115
+Asia (excl. China and India),,2010,35.583668
+Asia (excl. China and India),,2011,35.358128
+Asia (excl. China and India),,2012,35.172848
+Asia (excl. China and India),,2013,34.942352
+Asia (excl. China and India),,2014,34.757786
+Asia (excl. China and India),,2015,34.54129
+Asia (excl. China and India),,2016,34.352688
+Asia (excl. China and India),,2017,34.15653
+Asia (excl. China and India),,2018,33.793858
+Asia (excl. China and India),,2019,33.391937
+China,CHN,2000,60.404327
+China,CHN,2001,58.659157
+China,CHN,2002,56.898834
+China,CHN,2003,55.131176
+China,CHN,2004,53.350624
+China,CHN,2005,51.565674
+China,CHN,2006,49.76584
+China,CHN,2007,47.95577
+China,CHN,2008,46.154064
+China,CHN,2009,44.331154
+China,CHN,2010,42.48266
+China,CHN,2011,40.629913
+China,CHN,2012,38.76267
+China,CHN,2013,36.88074
+China,CHN,2014,35.010433
+China,CHN,2015,33.08923
+China,CHN,2016,31.17815
+China,CHN,2017,29.268248
+China,CHN,2018,27.322113
+China,CHN,2019,26.685574
+Europe,OWID_EUR,2000,12.765225
+Europe,OWID_EUR,2001,12.396227
+Europe,OWID_EUR,2002,12.022092
+Europe,OWID_EUR,2003,11.646129
+Europe,OWID_EUR,2004,11.265956
+Europe,OWID_EUR,2005,10.884381
+Europe,OWID_EUR,2006,10.498197
+Europe,OWID_EUR,2007,10.109589
+Europe,OWID_EUR,2008,9.724393
+Europe,OWID_EUR,2009,9.333278
+Europe,OWID_EUR,2010,8.935207
+Europe,OWID_EUR,2011,8.534819
+Europe,OWID_EUR,2012,8.132882
+Europe,OWID_EUR,2013,7.7267046
+Europe,OWID_EUR,2014,7.318689
+Europe,OWID_EUR,2015,6.905351
+Europe,OWID_EUR,2016,6.4930735
+Europe,OWID_EUR,2017,6.0775943
+Europe,OWID_EUR,2018,5.652361
+Europe,OWID_EUR,2019,5.479441
+India,IND,2000,67.55987
+India,IND,2001,66.4465
+India,IND,2002,65.32221
+India,IND,2003,64.19628
+India,IND,2004,63.06287
+India,IND,2005,61.93146
+India,IND,2006,60.789738
+India,IND,2007,59.643345
+India,IND,2008,58.517036
+India,IND,2009,57.37215
+India,IND,2010,56.19016
+India,IND,2011,55.01108
+India,IND,2012,53.8287
+India,IND,2013,52.644566
+India,IND,2014,51.46492
+India,IND,2015,50.268368
+India,IND,2016,49.08417
+India,IND,2017,47.904026
+India,IND,2018,46.724525
+India,IND,2019,45.670982
+Middle East & North Africa,,2000,45.726345
+Middle East & North Africa,,2001,45.40432
+Middle East & North Africa,,2002,45.075912
+Middle East & North Africa,,2003,44.74977
+Middle East & North Africa,,2004,44.420532
+Middle East & North Africa,,2005,44.09498
+Middle East & North Africa,,2006,43.764282
+Middle East & North Africa,,2007,43.433655
+Middle East & North Africa,,2008,43.120544
+Middle East & North Africa,,2009,42.797554
+Middle East & North Africa,,2010,42.46281
+Middle East & North Africa,,2011,42.134148
+Middle East & North Africa,,2012,41.803806
+Middle East & North Africa,,2013,41.46947
+Middle East & North Africa,,2014,41.139854
+Middle East & North Africa,,2015,40.80655
+Middle East & North Africa,,2016,40.46737
+Middle East & North Africa,,2017,40.138466
+Middle East & North Africa,,2018,39.808598
+Middle East & North Africa,,2019,39.45715
+Oceania,OWID_OCE,2000,11.600095
+Oceania,OWID_OCE,2001,11.342194
+Oceania,OWID_OCE,2002,11.082885
+Oceania,OWID_OCE,2003,10.823606
+Oceania,OWID_OCE,2004,10.563155
+Oceania,OWID_OCE,2005,10.302186
+Oceania,OWID_OCE,2006,10.04003
+Oceania,OWID_OCE,2007,9.777196
+Oceania,OWID_OCE,2008,9.5149555
+Oceania,OWID_OCE,2009,9.251015
+Oceania,OWID_OCE,2010,8.985612
+Oceania,OWID_OCE,2011,8.719446
+Oceania,OWID_OCE,2012,8.451111
+Oceania,OWID_OCE,2013,8.181218
+Oceania,OWID_OCE,2014,7.9107084
+Oceania,OWID_OCE,2015,7.639672
+Oceania,OWID_OCE,2016,7.3685155
+Oceania,OWID_OCE,2017,7.0949993
+Oceania,OWID_OCE,2018,6.8212113
+Oceania,OWID_OCE,2019,6.586275
+Sub-Saharan Africa,,2000,68.76415
+Sub-Saharan Africa,,2001,68.482765
+Sub-Saharan Africa,,2002,68.19652
+Sub-Saharan Africa,,2003,67.91195
+Sub-Saharan Africa,,2004,67.62488
+Sub-Saharan Africa,,2005,67.34081
+Sub-Saharan Africa,,2006,67.052795
+Sub-Saharan Africa,,2007,66.76475
+Sub-Saharan Africa,,2008,66.49046
+Sub-Saharan Africa,,2009,66.20845
+Sub-Saharan Africa,,2010,65.918495
+Sub-Saharan Africa,,2011,65.633705
+Sub-Saharan Africa,,2012,65.34833
+Sub-Saharan Africa,,2013,65.060936
+Sub-Saharan Africa,,2014,64.77629
+Sub-Saharan Africa,,2015,64.483154
+Sub-Saharan Africa,,2016,64.19991
+Sub-Saharan Africa,,2017,63.917263
+Sub-Saharan Africa,,2018,63.633606
+Sub-Saharan Africa,,2019,63.090157
+United States,USA,2000,7.767739
+United States,USA,2001,7.5444684
+United States,USA,2002,7.318787
+United States,USA,2003,7.093352
+United States,USA,2004,6.866182
+United States,USA,2005,6.638979
+United States,USA,2006,6.4093733
+United States,USA,2007,6.1792912
+United States,USA,2008,5.953631
+United States,USA,2009,5.724577
+United States,USA,2010,5.4921393
+United States,USA,2011,5.2604666
+United States,USA,2012,5.0263863
+United States,USA,2013,4.790075
+United States,USA,2014,4.5553675
+United States,USA,2015,4.320842
+United States,USA,2016,4.0863547
+United States,USA,2017,3.8511772
+United States,USA,2018,3.6146142
+United States,USA,2019,3.3611374
+World,OWID_WRL,2000,25.733202
+World,OWID_WRL,2001,25.752275
+World,OWID_WRL,2002,25.770414
+World,OWID_WRL,2003,25.755293
+World,OWID_WRL,2004,25.72813
+World,OWID_WRL,2005,25.659992
+World,OWID_WRL,2006,25.58729
+World,OWID_WRL,2007,25.491327
+World,OWID_WRL,2008,25.317965
+World,OWID_WRL,2009,25.156685
+World,OWID_WRL,2010,25.0144
+World,OWID_WRL,2011,24.82794
+World,OWID_WRL,2012,24.589472
+World,OWID_WRL,2013,24.309908
+World,OWID_WRL,2014,24.086908
+World,OWID_WRL,2015,23.779858
+World,OWID_WRL,2016,23.323952
+World,OWID_WRL,2017,22.896646
+World,OWID_WRL,2018,22.394943
+World,OWID_WRL,2019,22.151478
