@@ -42,13 +42,20 @@ header p{font-size:0.76rem;color:#8899bb;margin-top:2px}
 ::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-track{background:#0a0e1a}
 ::-webkit-scrollbar-thumb{background:#1e3a6e;border-radius:3px}
+
+@media (max-width:768px){
+  .main{flex-direction:column;height:auto;}
+  #map{height:55vh;min-height:380px;width:100%;flex:none;}
+  .sidebar{width:100%;border-left:none;border-top:1px solid #1e3a6e;}
+  header{flex-direction:column;gap:8px;align-items:flex-start;padding:12px 16px;}
+}
 </style>
 </head>
 <body>
 <header>
   <div>
     <h1>🌊 Global Ocean Pollution Index</h1>
-    <p>30 water bodies &nbsp;·&nbsp; 6 data sources &nbsp;·&nbsp; Forecast to 2100</p>
+    <p>30 water bodies &nbsp;·&nbsp; 9 data sources &nbsp;·&nbsp; Forecast to 2100</p>
   </div>
   <div class="ytoggle">
     <span class="ylabel">View year:</span>
@@ -102,6 +109,8 @@ const MD = [{"region": "North Atlantic Ocean", "lat": 40, "lon": -40, "s26": 34.
 let CY = 2026, LM = [];
 
 const map = L.map('map',{center:[20,10],zoom:2,minZoom:2,maxZoom:8});
+setTimeout(function(){ map.invalidateSize(); }, 300);
+window.addEventListener('resize', function(){ map.invalidateSize(); });
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
   {attribution:'© OpenStreetMap © CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);
 
