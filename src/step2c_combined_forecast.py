@@ -57,6 +57,11 @@ REGIONS = {
     "Lake Baikal":            (103, 110,  51,  56),
     "Lake Superior":          (-93, -84,  46,  49),
     "Lake Huron":             (-84, -79,  43,  46),
+    "Aegean Sea":             ( 23,  28,  35,  41),
+    "Gulf of Thailand":       ( 99, 105,   6,  14),
+    "Lake Michigan":          (-88, -85,  41,  46),
+    "Lake Erie":              (-83, -78,  41,  43),
+    "Lake Ontario":           (-80, -76,  43,  44),
 }
 
 # Which UN region/country best represents each water body's coastal population
@@ -91,6 +96,11 @@ REGION_TO_UN_LOCATION = {
     "Lake Baikal":          "Eastern Europe",
     "Lake Superior":        "Northern America",
     "Lake Huron":           "Northern America",
+    "Aegean Sea":           "Southern Europe",
+    "Gulf of Thailand":     "South-Eastern Asia",
+    "Lake Michigan":        "Northern America",
+    "Lake Erie":            "Northern America",
+    "Lake Ontario":         "Northern America",
 }
 
 def assign_region(lat, lon):

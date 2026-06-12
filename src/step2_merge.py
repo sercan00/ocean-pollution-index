@@ -49,6 +49,11 @@ REGIONS = {
     "Lake Baikal":            (103, 110,  51,  56),
     "Lake Superior":          (-93, -84,  46,  49),
     "Lake Huron":             (-84, -79,  43,  46),
+    "Aegean Sea":             ( 23,  28,  35,  41),
+    "Gulf of Thailand":       ( 99, 105,   6,  14),
+    "Lake Michigan":          (-88, -85,  41,  46),
+    "Lake Erie":              (-83, -78,  41,  43),
+    "Lake Ontario":           (-80, -76,  43,  44),
 }
 
 def assign_region(lat, lon):
@@ -70,6 +75,8 @@ LITERATURE_MP = {
     "Red Sea":45.0,"Coral Sea":2.5,"Tasman Sea":1.8,"Caspian Sea":15.0,
     "Lake Victoria":50.0,"Lake Tanganyika":8.0,"Lake Baikal":5.0,
     "Arabian Sea":45.0,"Gulf of Guinea":80.0,
+    "Lake Erie":162000.0,"Lake Michigan":58000.0,"Lake Ontario":200000.0,
+    "Gulf of Thailand":1781.0,"Aegean Sea":1.9,
 }
 LITERATURE_RIVER = {
     "South China Sea":580000,"Bay of Bengal":420000,"Arabian Sea":85000,
@@ -79,6 +86,8 @@ LITERATURE_RIVER = {
     "Lake Victoria":4500,"Lake Tanganyika":1200,"Lake Baikal":800,
     "Lake Superior":3000,"Lake Huron":4500,"Gulf of Guinea":18000,
     "Arctic Ocean":15000,"Southern Ocean":500,
+    "Lake Erie":6000,"Lake Michigan":7000,"Lake Ontario":9000,
+    "Gulf of Thailand":95000,"Aegean Sea":18000,
 }
 LITERATURE_POP = {
     "South China Sea":85000000,"Bay of Bengal":120000000,"Arabian Sea":45000000,
@@ -89,6 +98,8 @@ LITERATURE_POP = {
     "Lake Tanganyika":3000000,"Lake Baikal":500000,"Lake Superior":4000000,
     "Lake Huron":6000000,"Gulf of Guinea":25000000,"Caribbean Sea":40000000,
     "Arctic Ocean":200000,"Southern Ocean":5000,
+    "Lake Erie":12000000,"Lake Michigan":12000000,"Lake Ontario":9000000,
+    "Gulf of Thailand":40000000,"Aegean Sea":15000000,
 }
 
 # ── HELPER: READ WOA23 CSV ───────────────────────────────────────────────────

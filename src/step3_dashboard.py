@@ -22,7 +22,8 @@ REGION_CENTRES = {
     "Hudson Bay":(60,-86),"Great Lakes":(45,-84),"Caspian Sea":(42,51),
     "Lake Victoria":(-1,33),"Lake Tanganyika":(-6,30),"Lake Baikal":(53,108),
     "Lake Superior":(47,-87),"Lake Huron":(45,-82),
-}
+    "Gulf of Thailand":(10,102),    "Lake Ontario":(43.7,-78),
+    "Lake Erie":(42,-81),"Lake Michigan":(43.5,-87),"Aegean Sea":(38,25),}
 master['lat'] = master['region'].map(lambda r: REGION_CENTRES.get(r,(0,0))[0])
 master['lon'] = master['region'].map(lambda r: REGION_CENTRES.get(r,(0,0))[1])
 
