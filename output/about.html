@@ -41,7 +41,7 @@
   .source-org { font-size:0.78rem; color:var(--accent); }
   .source-desc { font-size:0.78rem; color:var(--muted); }
   .weights { margin:24px 0; }
-  .weight-row { display:flex; align-items:center; gap:14px; margin-bottom:12px; }
+  .weight-row { display:flex; align-items:center; gap:14px; margin-bottom:11px; }
   .weight-label { font-size:0.82rem; color:var(--text); width:210px; flex-shrink:0; }
   .weight-bar-bg { flex:1; height:8px; background:var(--border); border-radius:4px; overflow:hidden; }
   .weight-bar { height:100%; border-radius:4px; background:var(--accent); }
@@ -85,7 +85,6 @@
 </style>
 </head>
 <body>
-
 <nav>
   <a class="nav-logo" href="index.html">🌊 Ocean Pollution Index</a>
   <div class="nav-links">
@@ -93,78 +92,85 @@
     <a href="about.html" class="active">About</a>
   </div>
 </nav>
-
 <div class="hero">
   <div class="hero-label">About this project</div>
   <h1>Measuring the health of<br><em>every major body of water</em></h1>
   <p class="hero-sub">A data-driven index that scores 30 oceans, seas, and lakes on pollution — and forecasts each one to 2100 using its own real growth rate.</p>
   <a href="map.html" class="hero-cta">Explore the dashboard →</a>
 </div>
-
 <hr class="divider">
-
 <section id="project">
   <div class="section-label">The Project</div>
   <h2>Why this exists</h2>
   <p>Pollution data for the world's oceans exists — but it's scattered across a dozen agencies, in different formats, at different scales. Nobody had stitched it together into a single comparable score per water body.</p>
-  <p>This project does exactly that. Multiple public datasets, cleaned and merged, combined into nine pollution factors weighted by scientific relevance, and turned into an index you can compare — and forecast to 2100.</p>
-
+  <p>This project does exactly that. Twelve public datasets, cleaned and merged, combined into pollution factors weighted by scientific relevance, and turned into an index you can compare — and forecast to 2100.</p>
   <div class="stats">
     <div class="stat"><span class="stat-num">30</span><div class="stat-label">Water bodies scored</div></div>
-    <div class="stat"><span class="stat-num">9</span><div class="stat-label">Pollution factors</div></div>
+    <div class="stat"><span class="stat-num">12</span><div class="stat-label">Pollution factors</div></div>
     <div class="stat"><span class="stat-num">2100</span><div class="stat-label">Forecast horizon</div></div>
   </div>
-
   <p>The index covers major oceans split by hemisphere, regional seas (Mediterranean, Black Sea, Red Sea, South China Sea), and large lakes (Great Lakes, Caspian Sea, Lake Victoria, Lake Baikal). Every region gets a score from 0–100 built from real measurements.</p>
 </section>
-
 <hr class="divider">
-
 <section id="data">
   <div class="section-label">Data Sources</div>
   <h2>What goes into the score</h2>
   <p>Every dataset is publicly available and free to use. Where regional data was missing from a source, values were filled using published peer-reviewed literature — documented per region in the codebase.</p>
-
   <div class="sources-grid">
     <div class="source-row">
       <div><div class="source-name">Marine Microplastics</div><div class="source-org">NOAA NCEI</div></div>
       <div class="source-desc">The most direct measure of plastic pollution in the water column</div>
-      <div class="source-desc" style="color:var(--accent)">22%</div>
+      <div class="source-desc" style="color:var(--accent)">18%</div>
     </div>
     <div class="source-row">
       <div><div class="source-name">River Plastic Input</div><div class="source-org">Our World in Data</div></div>
       <div class="source-desc">Plastic entering the ocean via rivers — the primary land-to-ocean pathway</div>
-      <div class="source-desc" style="color:var(--accent)">18%</div>
+      <div class="source-desc" style="color:var(--accent)">15%</div>
     </div>
     <div class="source-row">
       <div><div class="source-name">Dissolved Oxygen</div><div class="source-org">NOAA World Ocean Atlas</div></div>
       <div class="source-desc">Low oxygen marks dead zones where marine life cannot survive</div>
-      <div class="source-desc" style="color:var(--accent)">12%</div>
+      <div class="source-desc" style="color:var(--accent)">10%</div>
     </div>
     <div class="source-row">
       <div><div class="source-name">World Port Index</div><div class="source-org">NGIA</div></div>
       <div class="source-desc">Industrial coastal pressure and shipping activity</div>
-      <div class="source-desc" style="color:var(--accent)">12%</div>
+      <div class="source-desc" style="color:var(--accent)">9%</div>
     </div>
     <div class="source-row">
       <div><div class="source-name">Coastal Population</div><div class="source-org">Copernicus / Zenodo</div></div>
       <div class="source-desc">Population within 10km of shore — proxy for waste pressure</div>
-      <div class="source-desc" style="color:var(--accent)">10%</div>
+      <div class="source-desc" style="color:var(--accent)">8%</div>
+    </div>
+    <div class="source-row">
+      <div><div class="source-name">Oil Spills</div><div class="source-org">NOAA IncidentNews</div></div>
+      <div class="source-desc">Frequency and volume of recorded oil spill incidents per region</div>
+      <div class="source-desc" style="color:var(--accent)">7%</div>
     </div>
     <div class="source-row">
       <div><div class="source-name">Ocean pH</div><div class="source-org">Copernicus Marine</div></div>
       <div class="source-desc">Acidification from CO₂ absorption</div>
-      <div class="source-desc" style="color:var(--accent)">8%</div>
+      <div class="source-desc" style="color:var(--accent)">7%</div>
     </div>
     <div class="source-row">
       <div><div class="source-name">Sea Surface Temperature</div><div class="source-org">NOAA World Ocean Atlas</div></div>
       <div class="source-desc">Thermal stress driving bleaching and ecosystem collapse</div>
-      <div class="source-desc" style="color:var(--accent)">8%</div>
+      <div class="source-desc" style="color:var(--accent)">7%</div>
     </div>
     <div class="source-row">
       <div><div class="source-name">Wastewater & Runoff</div><div class="source-org">FAO AQUASTAT</div></div>
       <div class="source-desc">Municipal sewage and agricultural runoff per region</div>
-      <div class="source-desc" style="color:var(--accent)">6%</div>
+      <div class="source-desc" style="color:var(--accent)">5%</div>
+    </div>
+    <div class="source-row">
+      <div><div class="source-name">Clean Water Score</div><div class="source-org">Ocean Health Index</div></div>
+      <div class="source-desc">Independent measure of chemical, nutrient and pathogen contamination</div>
+      <div class="source-desc" style="color:var(--accent)">5%</div>
+    </div>
+    <div class="source-row">
+      <div><div class="source-name">Biodiversity Score</div><div class="source-org">Ocean Health Index</div></div>
+      <div class="source-desc">Health of marine species and habitats — the ultimate impact of pollution</div>
+      <div class="source-desc" style="color:var(--accent)">5%</div>
     </div>
     <div class="source-row">
       <div><div class="source-name">Plastic Mismanagement</div><div class="source-org">OECD / Our World in Data</div></div>
@@ -173,29 +179,27 @@
     </div>
   </div>
 </section>
-
 <hr class="divider">
-
 <section id="methodology">
   <div class="section-label">Methodology</div>
   <h2>How the index is calculated</h2>
-  <p>Each of the nine factors is normalised to a 0–100 scale using min-max scaling across all 30 regions, then combined using a weighted average:</p>
-
+  <p>Each of the twelve factors is normalised to a 0–100 scale using min-max scaling across all 30 regions, then combined using a weighted average:</p>
   <div class="weights">
-    <div class="weight-row"><div class="weight-label">Microplastic concentration</div><div class="weight-bar-bg"><div class="weight-bar" style="width:22%"></div></div><div class="weight-pct">22%</div></div>
-    <div class="weight-row"><div class="weight-label">River plastic input</div><div class="weight-bar-bg"><div class="weight-bar" style="width:18%"></div></div><div class="weight-pct">18%</div></div>
-    <div class="weight-row"><div class="weight-label">Dissolved oxygen depletion</div><div class="weight-bar-bg"><div class="weight-bar" style="width:12%"></div></div><div class="weight-pct">12%</div></div>
-    <div class="weight-row"><div class="weight-label">Port & shipping pressure</div><div class="weight-bar-bg"><div class="weight-bar" style="width:12%"></div></div><div class="weight-pct">12%</div></div>
-    <div class="weight-row"><div class="weight-label">Coastal population</div><div class="weight-bar-bg"><div class="weight-bar" style="width:10%"></div></div><div class="weight-pct">10%</div></div>
-    <div class="weight-row"><div class="weight-label">Ocean pH (acidification)</div><div class="weight-bar-bg"><div class="weight-bar" style="width:8%"></div></div><div class="weight-pct">8%</div></div>
-    <div class="weight-row"><div class="weight-label">Sea surface temperature</div><div class="weight-bar-bg"><div class="weight-bar" style="width:8%"></div></div><div class="weight-pct">8%</div></div>
-    <div class="weight-row"><div class="weight-label">Wastewater & runoff</div><div class="weight-bar-bg"><div class="weight-bar" style="width:6%"></div></div><div class="weight-pct">6%</div></div>
-    <div class="weight-row"><div class="weight-label">Plastic mismanagement</div><div class="weight-bar-bg"><div class="weight-bar" style="width:4%"></div></div><div class="weight-pct">4%</div></div>
+    <div class="weight-row"><div class="weight-label">Microplastic concentration</div><div class="weight-bar-bg"><div class="weight-bar" style="width:36%"></div></div><div class="weight-pct">18%</div></div>
+    <div class="weight-row"><div class="weight-label">River plastic input</div><div class="weight-bar-bg"><div class="weight-bar" style="width:30%"></div></div><div class="weight-pct">15%</div></div>
+    <div class="weight-row"><div class="weight-label">Dissolved oxygen depletion</div><div class="weight-bar-bg"><div class="weight-bar" style="width:20%"></div></div><div class="weight-pct">10%</div></div>
+    <div class="weight-row"><div class="weight-label">Port & shipping pressure</div><div class="weight-bar-bg"><div class="weight-bar" style="width:18%"></div></div><div class="weight-pct">9%</div></div>
+    <div class="weight-row"><div class="weight-label">Coastal population</div><div class="weight-bar-bg"><div class="weight-bar" style="width:16%"></div></div><div class="weight-pct">8%</div></div>
+    <div class="weight-row"><div class="weight-label">Oil spill pressure</div><div class="weight-bar-bg"><div class="weight-bar" style="width:14%"></div></div><div class="weight-pct">7%</div></div>
+    <div class="weight-row"><div class="weight-label">Ocean pH (acidification)</div><div class="weight-bar-bg"><div class="weight-bar" style="width:14%"></div></div><div class="weight-pct">7%</div></div>
+    <div class="weight-row"><div class="weight-label">Sea surface temperature</div><div class="weight-bar-bg"><div class="weight-bar" style="width:14%"></div></div><div class="weight-pct">7%</div></div>
+    <div class="weight-row"><div class="weight-label">Wastewater & runoff</div><div class="weight-bar-bg"><div class="weight-bar" style="width:10%"></div></div><div class="weight-pct">5%</div></div>
+    <div class="weight-row"><div class="weight-label">Clean water (OHI)</div><div class="weight-bar-bg"><div class="weight-bar" style="width:10%"></div></div><div class="weight-pct">5%</div></div>
+    <div class="weight-row"><div class="weight-label">Biodiversity (OHI)</div><div class="weight-bar-bg"><div class="weight-bar" style="width:10%"></div></div><div class="weight-pct">5%</div></div>
+    <div class="weight-row"><div class="weight-label">Plastic mismanagement</div><div class="weight-bar-bg"><div class="weight-bar" style="width:8%"></div></div><div class="weight-pct">4%</div></div>
   </div>
-
   <h2 style="font-size:1.4rem;margin-top:40px;margin-bottom:16px">Forecasting to 2100</h2>
   <p>Rather than applying one growth rate to every region, each water body is forecast using its <strong>own growth rate</strong>, blended from three independent real-world data sources:</p>
-
   <div class="forecast-sources">
     <div class="fs-card">
       <div class="fs-pct">55%</div>
@@ -213,50 +217,41 @@
       <div class="fs-desc">The IPCC's CMIP6 temperature projection (SSP2-4.5) for each ocean region. The Arctic warms fastest of all.</div>
     </div>
   </div>
-
-  <p>This means regions with rising plastic, growing population, and rapid warming climb steeply — while regions like the Mediterranean, with a declining measured plastic trend and shrinking coastal population, are actually projected to improve by 2100.</p>
-
+  <p>This means regions with rising plastic, growing population, and rapid warming climb steeply — while regions like the Mediterranean, with a declining measured plastic trend and shrinking coastal population, are actually projected to improve by 2100. The dashboard's policy slider then lets you explore how those trajectories bend under different levels of global action.</p>
   <p style="margin-top:20px;font-size:0.82rem;color:var(--muted)"><strong style="color:var(--text)">Limitations — stated honestly:</strong></p>
   <ul class="limitation-list">
-    <li>The nine factor weights are chosen by reasoning about relevance, not derived statistically — a common approach for composite indices, but a subjective one</li>
+    <li>The factor weights are chosen by reasoning about relevance, not derived statistically — a common approach for composite indices, but a subjective one</li>
     <li>Microplastic units vary across studies (items/m³, items/kg, items/km²) so normalisation across measurement methods is approximate</li>
+    <li>Oil spill data is strongest for US coastal waters (NOAA), so some regions are likely under-represented</li>
     <li>Forecasts assume current trends continue with no major policy intervention — they are trajectories, not predictions</li>
     <li>Some regions rely on published literature values rather than direct local measurements, and these are flagged in the code</li>
   </ul>
 </section>
-
 <hr class="divider">
-
 <section id="about">
   <div class="section-label">The Builder</div>
   <h2>Who made this</h2>
-
   <div class="bio-card">
     <div class="bio-avatar">S</div>
     <div>
       <div class="bio-name">Sercan Emiroglu</div>
       <div class="bio-title">BSc Computer Science · City St George's, University of London</div>
       <div class="bio-text">
-        I'm a Computer Science graduate based in London with a focus on data science, machine learning, and building things that are actually useful. This project started as a portfolio piece and turned into something I genuinely care about — there's real data here telling a real story about where the world's oceans are headed.
+        I'm a Computer Science graduate based in London with a focus on data science, machine learning, and building things that are actually useful. I used to swim competitively, and the sea has always been my thing — so this project is personal as much as technical.
         <br><br>
-        I'm currently looking for roles in data analytics and data science. If you're working on something interesting, I'd like to hear about it.
+        There's real data here telling a real story about where the world's oceans are headed, and I wanted to make it something anyone could actually see and understand.
       </div>
       <div class="bio-links">
-        
         <a href="https://www.linkedin.com/in/sercanemiroglu" target="_blank" class="bio-link">LinkedIn</a>
-        
       </div>
     </div>
   </div>
 </section>
-
 <hr class="divider">
-
 <section id="contact">
   <div class="section-label">Get in Touch</div>
   <h2>Questions or feedback?</h2>
   <p>Whether it's about the methodology, the data, or just to say something looks wrong — I want to hear it.</p>
-
   <form class="contact-form" action="https://formspree.io/f/mqeolejv" method="POST">
     <div class="form-row"><label>NAME</label><input type="text" name="name" placeholder="Your name" required></div>
     <div class="form-row"><label>EMAIL</label><input type="email" name="email" placeholder="your@email.com" required></div>
@@ -265,13 +260,10 @@
     <p class="form-note">Your message goes directly to my inbox.</p>
   </form>
 </section>
-
 <hr class="divider">
-
 <footer>
-  <p>© 2026 Sercan Emiroglu </p>
+  <p>© 2026 Sercan Emiroglu</p>
   <p><a href="index.html">← Back to home</a></p>
 </footer>
-
 </body>
 </html>

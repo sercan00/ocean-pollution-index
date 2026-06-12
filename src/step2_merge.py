@@ -334,6 +334,84 @@ else:
 # ════════════════════════════════════════════════════════════════════════════
 
 sep("Merging into Master File")
+# ════════════════════════════════════════════════════════════════════════════
+# NEW v3 DATASETS: Oil Spills, OHI Clean Water, OHI Biodiversity
+# ════════════════════════════════════════════════════════════════════════════
+
+# OHI country name -> our region mapping (coastal countries to nearest water body)
+OHI_REGION_MAP = {
+    'United States':'North Atlantic Ocean','Canada':'North Atlantic Ocean',
+    'United Kingdom':'North Atlantic Ocean','France':'North Atlantic Ocean',
+    'Spain':'North Atlantic Ocean','Portugal':'North Atlantic Ocean','Ireland':'North Atlantic Ocean',
+    'Brazil':'South Atlantic Ocean','Argentina':'South Atlantic Ocean','South Africa':'South Atlantic Ocean',
+    'India':'Indian Ocean','Bangladesh':'Indian Ocean','Sri Lanka':'Bay of Bengal',
+    'Indonesia':'South Pacific Ocean','Australia':'South Pacific Ocean','Philippines':'South China Sea',
+    'China':'North Pacific Ocean','Japan':'North Pacific Ocean','South Korea':'North Pacific Ocean',
+    'Vietnam':'South China Sea','Thailand':'South China Sea','Malaysia':'South China Sea',
+    'Italy':'Mediterranean Sea','Greece':'Mediterranean Sea','Turkey':'Mediterranean Sea',
+    'Egypt':'Mediterranean Sea','Croatia':'Mediterranean Sea','Tunisia':'Mediterranean Sea',
+    'Mexico':'Gulf of Mexico','Cuba':'Caribbean Sea','Jamaica':'Caribbean Sea',
+    'Germany':'North Sea','Netherlands':'North Sea','Norway':'North Sea','Denmark':'North Sea',
+    'Sweden':'Baltic Sea','Finland':'Baltic Sea','Poland':'Baltic Sea','Estonia':'Baltic Sea',
+    'Russia':'Black Sea','Ukraine':'Black Sea','Romania':'Black Sea','Bulgaria':'Black Sea',
+    'Saudi Arabia':'Red Sea','Yemen':'Red Sea','Sudan':'Red Sea',
+    'Iran':'Persian Gulf','Iraq':'Persian Gulf','Kuwait':'Persian Gulf','United Arab Emirates':'Persian Gulf','Qatar':'Persian Gulf',
+    'Oman':'Arabian Sea','Pakistan':'Arabian Sea','Somalia':'Arabian Sea',
+    'Myanmar':'Bay of Bengal','Nigeria':'Gulf of Guinea','Ghana':'Gulf of Guinea','Cameroon':'Gulf of Guinea',
+    'New Zealand':'Tasman Sea','Papua New Guinea':'Coral Sea',
+    'Kenya':'Indian Ocean','Tanzania':'Indian Ocean','Mozambique':'Indian Ocean','Madagascar':'Indian Ocean',
+}
+
+# ── OIL SPILLS (NOAA IncidentNews) ──────────────────────────────────────────
+sep("Loading Oil Spills (NOAA IncidentNews)")
+oil_file = glob.glob(os.path.join(DATA_DIR, "incidents.csv"))
+if oil_file:
+    oil = pd.read_csv(oil_file[0])
+    oil = oil[oil['lat'].notna() & oil['lon'].notna()].copy()
+    # Focus on oil-type incidents
+    if 'threat' in oil.columns:
+        oil_only = oil[oil['threat'].astype(str).str.contains('Oil', case=False, na=False)]
+        if len(oil_only) > 0:
+            oil = oil_only
+    oil['region'] = oil.apply(lambda r: assign_region(r['lat'], r['lon']), axis=1)
+    oil['gallons'] = pd.to_numeric(oil.get('max_ptl_release_gallons'), errors='coerce').fillna(0)
+    oil_agg = oil.groupby('region').agg(
+        oil_spill_count=('id','count'),
+        oil_spill_gallons=('gallons','sum'),
+    ).reset_index()
+    # Combined pressure: count + log of volume
+    oil_agg['oil_spill_pressure'] = oil_agg['oil_spill_count'] + np.log1p(oil_agg['oil_spill_gallons'])
+    print(f"✅ Oil spills: {len(oil_agg)} regions, {len(oil)} incidents mapped")
+    print(oil_agg.sort_values('oil_spill_count',ascending=False).head(5).to_string(index=False))
+else:
+    print("❌ incidents.csv not found")
+    oil_agg = pd.DataFrame({'region':list(REGIONS.keys())}); oil_agg['oil_spill_pressure']=np.nan
+
+# ── OCEAN HEALTH INDEX (Clean Water + Biodiversity) ─────────────────────────
+sep("Loading Ocean Health Index (Clean Water + Biodiversity)")
+ohi_file = glob.glob(os.path.join(DATA_DIR, "scores.csv"))
+if ohi_file:
+    ohi = pd.read_csv(ohi_file[0])
+    latest = ohi['scenario'].max()
+    ohi = ohi[(ohi['dimension']=='score') & (ohi['scenario']==latest)]
+    ohi['region'] = ohi['region_name'].map(OHI_REGION_MAP)
+
+    # Clean Water (CW) — HIGHER OHI = cleaner, so we INVERT for pollution
+    cw = ohi[ohi['goal']=='CW'].dropna(subset=['region'])
+    cw_agg = cw.groupby('region')['value'].mean().reset_index()
+    cw_agg.columns = ['region','ohi_clean_water']
+
+    # Biodiversity (BD) — HIGHER OHI = healthier, INVERT for pollution
+    bd = ohi[ohi['goal']=='BD'].dropna(subset=['region'])
+    bd_agg = bd.groupby('region')['value'].mean().reset_index()
+    bd_agg.columns = ['region','ohi_biodiversity']
+
+    print(f"✅ OHI loaded (year {latest}): Clean Water {len(cw_agg)} regions, Biodiversity {len(bd_agg)} regions")
+else:
+    print("❌ scores.csv not found")
+    cw_agg = pd.DataFrame({'region':list(REGIONS.keys())}); cw_agg['ohi_clean_water']=np.nan
+    bd_agg = pd.DataFrame({'region':list(REGIONS.keys())}); bd_agg['ohi_biodiversity']=np.nan
+
 master = pd.DataFrame({'region': list(REGIONS.keys())})
 master = master.merge(mp_agg,    on='region', how='left')
 master = master.merge(river_agg, on='region', how='left')
@@ -344,6 +422,9 @@ master = master.merge(do_agg,    on='region', how='left')
 master = master.merge(sst_agg,   on='region', how='left')
 master = master.merge(ww_agg,    on='region', how='left')
 master = master.merge(mm_agg,    on='region', how='left')
+master = master.merge(oil_agg[['region','oil_spill_pressure']], on='region', how='left')
+master = master.merge(cw_agg,    on='region', how='left')
+master = master.merge(bd_agg,    on='region', how='left')
 
 # ── FILL GAPS ────────────────────────────────────────────────────────────────
 sep("Filling Gaps")
@@ -364,6 +445,10 @@ master['sst_thermal_stress'] = master['sst_thermal_stress'].fillna(0)
 master['wastewater_total'] = master['wastewater_total'].fillna(0)
 master['mismanagement_rate_mean'] = master['mismanagement_rate_mean'].fillna(
     master['mismanagement_rate_mean'].median())
+master['oil_spill_pressure'] = master['oil_spill_pressure'].fillna(0)
+# OHI: missing = assume global average score (neither great nor terrible)
+master['ohi_clean_water'] = master['ohi_clean_water'].fillna(master['ohi_clean_water'].median() if master['ohi_clean_water'].notna().any() else 70)
+master['ohi_biodiversity'] = master['ohi_biodiversity'].fillna(master['ohi_biodiversity'].median() if master['ohi_biodiversity'].notna().any() else 80)
 for col in ['port_count','port_pressure_score']:
     if col in master.columns:
         master[col] = master[col].fillna(0)
@@ -389,19 +474,26 @@ master['score_oxygen']        = normalize(
 master['score_temperature']   = normalize(master['sst_thermal_stress'].fillna(0))
 master['score_wastewater']    = normalize(master['wastewater_total'].fillna(0))
 master['score_mismanagement'] = normalize(master['mismanagement_rate_mean'].fillna(0))
+master['score_oil']          = normalize(master['oil_spill_pressure'].fillna(0))
+# OHI inverted: 100 - score, so high pollution score = dirty/unhealthy
+master['score_clean_water']  = normalize(100 - master['ohi_clean_water'].fillna(70))
+master['score_biodiversity'] = normalize(100 - master['ohi_biodiversity'].fillna(80))
 
 # Updated weights — sum to 1.0
 # Reduced existing weights slightly to make room for new factors
 W = {
-    'microplastic':  0.22,
-    'river':         0.18,
-    'port':          0.12,
-    'population':    0.10,
-    'ph':            0.08,
-    'oxygen':        0.12,  # NEW — oxygen depletion
-    'temperature':   0.08,  # NEW — thermal stress
-    'wastewater':    0.06,  # NEW — agricultural/municipal runoff
-    'mismanagement': 0.04,  # NEW — plastic waste management
+    'microplastic':  0.18,
+    'river':         0.15,
+    'port':          0.09,
+    'population':    0.08,
+    'ph':            0.07,
+    'oxygen':        0.10,
+    'temperature':   0.07,
+    'wastewater':    0.05,
+    'mismanagement': 0.04,
+    'oil':           0.07,  # NEW v3 — oil spill pressure
+    'clean_water':   0.05,  # NEW v3 — OHI clean water (inverted)
+    'biodiversity':  0.05,  # NEW v3 — OHI biodiversity (inverted)
 }
 
 master['pollution_index'] = (
@@ -413,7 +505,10 @@ master['pollution_index'] = (
     W['oxygen']        * master['score_oxygen']        +
     W['temperature']   * master['score_temperature']   +
     W['wastewater']    * master['score_wastewater']    +
-    W['mismanagement'] * master['score_mismanagement']
+    W['mismanagement'] * master['score_mismanagement'] +
+    W['oil']           * master['score_oil']           +
+    W['clean_water']   * master['score_clean_water']   +
+    W['biodiversity']  * master['score_biodiversity']
 ).round(2)
 
 def grade(s):
