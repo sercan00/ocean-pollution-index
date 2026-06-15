@@ -9,4 +9,4 @@ foreach ($file in @("map.html", "about.html")) {
         Write-Host "Fixed logo path in $file"
     }
 }
-Write-Host "Done! Now deploy to Netlify."
+Write-Host "Done! Now deploy."
