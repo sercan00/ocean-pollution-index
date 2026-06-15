@@ -69,19 +69,20 @@ This means regions with rising plastic, growing population, and rapid warming cl
 
 ## 🗺️ Key Findings
 
-- **Great Lakes** and **South China Sea** rank highest in 2026 due to exceptional microplastic particle densities and river input from major urban watersheds
+- **North Pacific** ranks highest in 2026 — lowest ocean pH of any basin, plus the highest concentration of recorded oil spill incidents
 - **Indian Ocean** carries the highest coastal population pressure — 208 million people within 10km of shore
-- By 2100, all major water bodies cross into **Critical** territory under current trajectory
-- **Arctic Ocean** and **Southern Ocean** show low current scores but are receiving increasing microplastic transport via ocean currents
+- **Great Lakes** (Erie, Ontario, Michigan) rank above most oceans, driven by extreme microplastic densities
+- **Arctic Ocean** shows a low score today but is warming faster than any region on the map
+- **Mediterranean** is one of the few water bodies projected to *improve* by 2100
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Python** — pandas, numpy, xarray, geopandas, scikit-learn, netCDF4
+- **Python** — pandas, numpy, xarray, scipy, netCDF4
 - **Visualisation** — Leaflet.js, Chart.js (vanilla HTML/JS, no framework)
 - **Data formats** — CSV, NetCDF, GeoJSON, Shapefile
-- **Hosting** — Netlify (static), GoDaddy domain
+- **Hosting** — Firebase Hosting, GoDaddy domain
 
 ---
 
@@ -89,14 +90,18 @@ This means regions with rising plastic, growing population, and rapid warming cl
 
 ```
 ocean_pollution_project/
-├── data/                         # All raw datasets
+├── data/                              # All raw datasets
 ├── src/
-│   ├── step1_load_and_explore.py # Data audit and exploration
-│   ├── step2_merge.py            # Cleaning, gap-filling, index calculation
-│   └── step3_dashboard.py        # Interactive HTML dashboard generator
+│   ├── step1_load_and_explore.py      # Data audit and exploration
+│   ├── step2_merge.py                 # Cleaning, gap-filling, index calculation
+│   ├── step2b_historical_trends.py    # Per-region growth rates from history
+│   ├── step2c_combined_forecast.py    # 3-source blended forecast
+│   └── step3_dashboard.py             # Interactive HTML dashboard generator
 ├── output/
-│   ├── master_ocean_pollution.csv # Final merged dataset (30 regions × 34 columns)
-│   └── index.html                 # Live dashboard
+│   ├── master_ocean_pollution.csv     # Final merged dataset (35 regions)
+│   ├── index.html                     # Landing page
+│   ├── map.html                       # Interactive dashboard
+│   └── about.html                     # Methodology page
 └── requirements.txt
 ```
 
@@ -106,8 +111,10 @@ ocean_pollution_project/
 
 ```bash
 pip install -r requirements.txt
-python src/step2_merge.py      # generates master_ocean_pollution.csv
-python src/step3_dashboard.py  # generates index.html
+python src/step2_merge.py               # generates master_ocean_pollution.csv
+python src/step2b_historical_trends.py  # generates region_growth_rates.csv
+python src/step2c_combined_forecast.py  # adds forecast columns
+python src/step3_dashboard.py           # generates map.html
 ```
 
 Then open `output/index.html` in any browser.
@@ -116,11 +123,12 @@ Then open `output/index.html` in any browser.
 
 ## 📌 Limitations & Future Work
 
-- Copernicus biogeochemistry snapshot is a single date (June 2026); future versions should use multi-year averages
-- Forecast model assumes linear compound growth; a more sophisticated time-series model (Prophet, LSTM) would improve accuracy
-- AIS shipping density data (Global Fishing Watch) not yet integrated — planned for v2
+- The factor weights are chosen by reasoning about relevance, not derived statistically — a common approach for composite indices, but a subjective one
 - Microplastic units vary across studies (items/m³, items/kg, items/km²); normalisation is approximate
+- Oil spill data is strongest for US coastal waters (NOAA), so some regions are likely under-represented
+- Forecasts assume current trends continue; they are trajectories, not predictions
+- A more sophisticated time-series model (Prophet, LSTM) would improve forecast accuracy
 
 ---
 
-*Built by Sercan Emiroglu — BSc Computer Science, City St George's University of London*
+*Built by Sercan Emiroglu — BSc Computer Science, City St George's, University of London*
