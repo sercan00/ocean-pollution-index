@@ -1,6 +1,6 @@
 # 🌊 Global Ocean Pollution Index
 
-A data science project that measures, scores, and forecasts pollution levels across **30 major water bodies** — oceans, seas, and large lakes — using 6 real-world datasets and a weighted multi-factor model.
+A data science project that measures, scores, and forecasts pollution levels across **35 major water bodies** — oceans, seas, and large lakes — using 12 real-world factors and a weighted multi-factor model.
 
 **Live dashboard:** [oceanpollutionindex.com](https://oceanpollutionindex.com)
 
@@ -8,9 +8,9 @@ A data science project that measures, scores, and forecasts pollution levels acr
 
 ## 📊 What It Does
 
-- Aggregates microplastic measurements, river plastic input, port industrial pressure, coastal population density, and ocean pH into a single **Pollution Index (0–100)** per water body
-- Forecasts pollution trajectories to **2030, 2040, 2050, and 2100** using compound growth modelling
-- Visualises everything on an **interactive dark-mode world map** with year toggle (2026 / 2050 / 2100)
+- Aggregates 12 pollution factors — microplastics, river plastic, dissolved oxygen, port pressure, coastal population, oil spills, ocean pH, sea temperature, wastewater, clean water, biodiversity, and plastic mismanagement — into a single **Pollution Index (0–100)** per water body
+- Forecasts pollution trajectories to **2030, 2050, and 2100** using a per-region model that blends measured trends, population growth, and ocean warming
+- Visualises everything on an **interactive dark-mode world map** with a year toggle (2026 / 2050 / 2100) and a **policy scenario slider** that shows how the future changes under different levels of action
 
 ---
 
@@ -20,10 +20,17 @@ A data science project that measures, scores, and forecasts pollution levels acr
 |---|---|---|
 | Marine Microplastics | NOAA NCEI | Direct pollution measurement |
 | River Plastic Input | Our World in Data / Meijer et al. | Land-to-ocean pollution pathways |
-| World Port Index | NGIA / Kaggle | Industrial coastal pressure |
-| Global Coastal Characteristics | Copernicus / Zenodo | Coastal population density, GDP |
-| Ocean Biogeochemistry | Copernicus Marine Service | Ocean pH, dissolved carbon |
-| IUU Fishing Risk | Global Fishing Watch | Fishing pressure, illegal activity |
+| Dissolved Oxygen | NOAA World Ocean Atlas | Dead zones / oxygen depletion |
+| World Port Index | NGIA | Industrial coastal pressure |
+| Coastal Population | Copernicus / Zenodo | Coastal population density |
+| Oil Spills | NOAA IncidentNews | Spill frequency and volume |
+| Ocean Biogeochemistry | Copernicus Marine Service | Ocean pH (acidification) |
+| Sea Surface Temperature | NOAA World Ocean Atlas | Thermal stress |
+| Wastewater & Runoff | FAO AQUASTAT | Municipal and agricultural runoff |
+| Clean Water & Biodiversity | Ocean Health Index | Independent ecosystem health scores |
+| Plastic Mismanagement | OECD / Our World in Data | Share of badly disposed plastic |
+| Population Projections | UN World Population Prospects | Forecast population growth to 2100 |
+| Climate Projections | IPCC CMIP6 (SSP2-4.5) | Forecast ocean warming to 2100 |
 
 Missing values were filled using published peer-reviewed literature (cited in `src/step2_merge.py`) or statistical imputation from comparable regions, with source flagged per region.
 
@@ -31,17 +38,32 @@ Missing values were filled using published peer-reviewed literature (cited in `s
 
 ## 🧮 Pollution Index Methodology
 
-The index is a weighted composite of 5 normalised (0–100) components:
+The index is a weighted composite of 12 normalised (0–100) factors:
 
-| Component | Weight | Rationale |
-|---|---|---|
-| Microplastic concentration | 30% | Direct, measurable pollution |
-| River plastic input (kg/yr) | 25% | Primary ocean pollution pathway |
-| Port pressure score | 20% | Industrial and shipping activity |
-| Coastal population (10km) | 15% | Proxy for waste generation |
-| Ocean pH deviation | 10% | Acidification from CO₂ absorption |
+| Factor | Weight |
+|---|---|
+| Microplastic concentration | 18% |
+| River plastic input | 15% |
+| Dissolved oxygen depletion | 10% |
+| Port & shipping pressure | 9% |
+| Coastal population | 8% |
+| Oil spill pressure | 7% |
+| Ocean pH (acidification) | 7% |
+| Sea surface temperature | 7% |
+| Wastewater & runoff | 5% |
+| Clean water (OHI) | 5% |
+| Biodiversity (OHI) | 5% |
+| Plastic mismanagement | 4% |
 
-Forecasts assume a **3% annual compound increase** — consistent with observed global plastic production growth trends.
+### Forecasting
+
+Rather than one growth rate for every region, each water body is forecast using its **own growth rate**, blended from three independent real-world sources:
+
+- **Microplastic trend (55%)** — log-linear regression on 50 years of NOAA measurements (1972–2023)
+- **Population growth (25%)** — UN projections per region to 2100
+- **Ocean warming (20%)** — IPCC CMIP6 temperature projections per region
+
+This means regions with rising plastic, growing population, and rapid warming climb steeply — while regions like the Mediterranean (declining plastic trend, shrinking population) are projected to improve.
 
 ---
 
