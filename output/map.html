@@ -152,7 +152,10 @@ function colour(s){
   if(s<30) return '#f1c40f';
   if(s<50) return '#e67e22';
   if(s<70) return '#e74c3c';
-  return '#8e1010';
+  if(s<100) return '#c0392b';
+  if(s<150) return '#8e1010';
+  if(s<250) return '#5e0a0a';
+  return '#2a0a2a';
 }
 function grade(s){
   if(!s||s<=0) return 'Minimal';
