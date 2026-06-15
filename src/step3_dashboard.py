@@ -173,7 +173,10 @@ header p{{font-size:0.76rem;color:#8899bb;margin-top:2px}}
       <div class="lrow"><div class="ldot" style="background:#f1c40f"></div>Low (10–30)</div>
       <div class="lrow"><div class="ldot" style="background:#e67e22"></div>Moderate (30–50)</div>
       <div class="lrow"><div class="ldot" style="background:#e74c3c"></div>High (50–70)</div>
-      <div class="lrow"><div class="ldot" style="background:#8e1010"></div>Critical (70+)</div>
+      <div class="lrow"><div class="ldot" style="background:#c0392b"></div>Critical (70–100)</div>
+      <div class="lrow"><div class="ldot" style="background:#8e1010"></div>Severe (100–150)</div>
+      <div class="lrow"><div class="ldot" style="background:#5e0a0a"></div>Extreme (150–250)</div>
+      <div class="lrow"><div class="ldot" style="background:#2a0a2a"></div>Catastrophic (250+)</div>
       <p class="hint">Toggle the year above, drag the policy slider, and click a circle for details.</p>
     </div>
     <div class="panel" id="dp">
