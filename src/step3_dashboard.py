@@ -241,7 +241,9 @@ function colour(s){{
 function grade(s){{
   if(!s||s<=0) return 'Minimal';
   if(s<10) return 'Minimal'; if(s<30) return 'Low';
-  if(s<50) return 'Moderate'; if(s<70) return 'High'; return 'Critical';
+  if(s<50) return 'Moderate'; if(s<70) return 'High';
+  if(s<100) return 'Critical'; if(s<150) return 'Severe';
+  if(s<250) return 'Extreme'; return 'Catastrophic';
 }}
 function rad(s){{
   if(!s||s<=0) return 7;
