@@ -292,7 +292,7 @@ function buildLeague(){{
     v50:project(m.base,m.growth,2050),
     v100:project(m.base,m.growth,2100)
   }})).sort((a,b)=>b.v26-a.v26);
-  const gc={{Critical:'#8e1010',High:'#e74c3c',Moderate:'#e67e22',Low:'#f1c40f',Minimal:'#27ae60'}};
+  const gc={{Catastrophic:'#2a0a2a',Extreme:'#5e0a0a',Severe:'#8e1010',Critical:'#c0392b',High:'#e74c3c',Moderate:'#e67e22',Low:'#f1c40f',Minimal:'#27ae60'}};
   let html='';
   rows.forEach((r,i)=>{{
     html+=`<tr><td style='color:#aaa'>${{i+1}}</td><td>${{r.region}}</td>`+
