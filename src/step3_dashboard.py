@@ -141,8 +141,8 @@ header p{{font-size:0.76rem;color:#8899bb;margin-top:2px}}
 <body>
 <header>
   <div>
-    <h1>🌊 Global Ocean Pollution Index</h1>
-    <p>30 water bodies &nbsp;·&nbsp; 9 data sources &nbsp;·&nbsp; Forecast to 2100</p>
+    <h1><a href="/" style="color:inherit;text-decoration:none;cursor:pointer">🌊 Global Ocean Pollution Index</a></h1>
+    <p>35 water bodies &nbsp;·&nbsp; 13 data sources &nbsp;·&nbsp; Forecast to 2100</p>
   </div>
   <div class="ytoggle">
     <span class="ylabel">View year:</span>
