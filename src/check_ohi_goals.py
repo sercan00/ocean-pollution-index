@@ -1,6 +1,6 @@
 """Check what goals and dimensions exist in OHI scores."""
 import pandas as pd, os
-DATA_DIR = r"C:\Users\sercan\Desktop\ocean_pollution_project\data"
+DATA_DIR = r"C:\Users\sercan\Desktop\Projects\ocean_pollution_project\data"
 ohi = pd.read_csv(os.path.join(DATA_DIR, "scores.csv"))
 
 print("=== GOALS available ===")

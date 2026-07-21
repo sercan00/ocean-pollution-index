@@ -11,8 +11,8 @@ import xarray as xr
 import glob, os, warnings
 warnings.filterwarnings('ignore')
 
-DATA_DIR = r"C:\Users\sercan\Desktop\ocean_pollution_project\data"
-OUT_DIR  = r"C:\Users\sercan\Desktop\ocean_pollution_project\output"
+DATA_DIR = r"C:\Users\sercan\Desktop\Projects\ocean_pollution_project\data"
+OUT_DIR  = r"C:\Users\sercan\Desktop\Projects\ocean_pollution_project\output"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 def sep(t): print(f"\n{'='*60}\n  {t}\n{'='*60}")
@@ -437,6 +437,26 @@ master = master.merge(oil_agg[['region','oil_spill_pressure']], on='region', how
 master = master.merge(cw_agg,    on='region', how='left')
 master = master.merge(bd_agg,    on='region', how='left')
 
+# ── DATA CONFIDENCE TRACKING ─────────────────────────────────────────────────
+# Before filling any gaps, record which factors were actually MEASURED
+# (i.e. present in the source data) vs which we will have to estimate.
+# This lets us show a per-region "data confidence" score on the dashboard.
+CONFIDENCE_COLS = {
+    'microplastic_mean':'microplastic', 'river_plastic_kg_total':'river',
+    'coastal_pop_10km':'population', 'ph_mean':'ph',
+    'dissolved_oxygen_mean':'oxygen', 'sst_thermal_stress':'temperature',
+    'wastewater_total':'wastewater', 'mismanagement_rate_mean':'mismanagement',
+    'oil_spill_pressure':'oil', 'ohi_clean_water':'clean_water',
+    'ohi_biodiversity':'ohi_biodiversity', 'port_pressure_score':'port',
+}
+# A factor is "measured" for a region if it is NOT null before gap-filling.
+for col in CONFIDENCE_COLS:
+    flag = 'measured_' + CONFIDENCE_COLS[col]
+    if col in master.columns:
+        master[flag] = master[col].notna()
+    else:
+        master[flag] = False
+
 # ── FILL GAPS ────────────────────────────────────────────────────────────────
 sep("Filling Gaps")
 for idx, row in master.iterrows():
@@ -464,7 +484,15 @@ for col in ['port_count','port_pressure_score']:
     if col in master.columns:
         master[col] = master[col].fillna(0)
 
+# Compute per-region data confidence: % of the 12 factors that were measured
+measured_flags = ['measured_' + v for v in CONFIDENCE_COLS.values()]
+master['data_confidence'] = (master[measured_flags].sum(axis=1) / len(measured_flags) * 100).round(0)
+
 print("✅ Gaps filled")
+print(f"\n   Data confidence by region (% of factors measured, not estimated):")
+for _, rr in master.sort_values('data_confidence', ascending=False).iterrows():
+    bar = '█' * int(rr['data_confidence']/10)
+    print(f"     {rr['region']:<22} {rr['data_confidence']:>3.0f}%  {bar}")
 
 # ── UPDATED POLLUTION INDEX ───────────────────────────────────────────────────
 sep("Calculating Updated Pollution Index")

@@ -7,7 +7,7 @@ league table, and chart all update to show "what if we act" scenarios.
 """
 import pandas as pd, numpy as np, json, os
 
-OUT_DIR  = r"C:\Users\sercan\Desktop\ocean_pollution_project\output"
+OUT_DIR  = r"C:\Users\sercan\Desktop\Projects\ocean_pollution_project\output"
 master   = pd.read_csv(os.path.join(OUT_DIR, "master_ocean_pollution.csv"))
 
 REGION_CENTRES = {
@@ -59,6 +59,7 @@ for _, row in master.iterrows():
         "river":f(row.get('river_plastic_kg_total'),0),
         "pop":f(row.get('coastal_pop_10km'),0),
         "ph":f(row.get('ph_mean'),3),
+        "conf":int(row.get('data_confidence',100)) if pd.notna(row.get('data_confidence')) else 100,
     })
 
 mj = json.dumps(markers)
@@ -117,6 +118,7 @@ header p{{font-size:0.76rem;color:#8899bb;margin-top:2px}}
 #lt tr:hover td{{background:#131e35}}
 #fc{{max-height:200px}}
 .hint{{font-size:.71rem;color:#5577aa;margin-top:5px}}
+.confnote{{font-size:0.72rem;color:#7a8ba8;font-style:italic;line-height:1.5;margin-top:8px;padding:8px 10px;background:#0d1424;border-left:2px solid #2a3f66;border-radius:4px}}
 /* Policy scenario slider */
 .scenario-box{{background:#0d1b3e;border-bottom:1px solid #1e3a6e;padding:12px 22px}}
 .scenario-top{{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}}
@@ -141,8 +143,8 @@ header p{{font-size:0.76rem;color:#8899bb;margin-top:2px}}
 <body>
 <header>
   <div>
-    <h1><a href="/" style="color:inherit;text-decoration:none;cursor:pointer">🌊 Global Ocean Pollution Index</a></h1>
-    <p>35 water bodies &nbsp;·&nbsp; 12 data sources &nbsp;·&nbsp; Forecast to 2100</p>
+    <h1>🌊 Global Ocean Pollution Index</h1>
+    <p>30 water bodies &nbsp;·&nbsp; 9 data sources &nbsp;·&nbsp; Forecast to 2100</p>
   </div>
   <div class="ytoggle">
     <span class="ylabel">View year:</span>
@@ -184,6 +186,7 @@ header p{{font-size:0.76rem;color:#8899bb;margin-top:2px}}
       <div id="dtitle"></div>
       <div id="dscore"></div>
       <table id="dtable"><tbody id="dbody"></tbody></table>
+      <p id="confnote" class="confnote"></p>
     </div>
     <div class="panel">
       <div class="ptitle">Pollution Forecast — Top 5 Regions</div>
@@ -277,11 +280,19 @@ function build(){{
         `<tr><td>🧪 Ocean pH</td><td>${{m.ph}}</td></tr>`+
         `<tr><td>📅 2026 Index</td><td><b>${{v2026.toFixed(1)}}</b></td></tr>`+
         `<tr><td>📅 2050 Forecast</td><td><b style='color:#e67e22'>${{v2050.toFixed(1)}}</b></td></tr>`+
-        `<tr><td>📅 2100 Forecast</td><td><b style='color:#e74c3c'>${{v2100.toFixed(1)}}</b></td></tr>`;
+        `<tr><td>📅 2100 Forecast</td><td><b style='color:#e74c3c'>${{v2100.toFixed(1)}}</b></td></tr>`+
+        `<tr><td>📊 Data Confidence</td><td>${{confBadge(m.conf)}}</td></tr>`;
       document.querySelector('.sidebar').scrollTop=0;
     }});
     LM.push(cm);
   }});
+}}
+
+function confBadge(pct){{
+  // Colour-code how much of a region's score is from measured (not estimated) data
+  let col = pct>=75 ? '#27ae60' : pct>=50 ? '#f1c40f' : pct>=25 ? '#e67e22' : '#e74c3c';
+  let label = pct>=75 ? 'High' : pct>=50 ? 'Medium' : pct>=25 ? 'Low' : 'Very low';
+  return `<span style="color:${{col}};font-weight:bold">${{pct}}% (${{label}})</span>`;
 }}
 
 function buildLeague(){{

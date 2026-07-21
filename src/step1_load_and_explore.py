@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # ── CONFIG: point this to your data folder ──────────────────────────────────
-DATA_DIR = r"C:\Users\sercan\Desktop\ocean_pollution_project\data"  # CHANGE IF NEEDED
+DATA_DIR = r"C:\Users\sercan\Desktop\Projects\ocean_pollution_project\data"  # CHANGE IF NEEDED
 # ────────────────────────────────────────────────────────────────────────────
 
 def sep(title):

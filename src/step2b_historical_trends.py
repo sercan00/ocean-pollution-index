@@ -12,8 +12,8 @@ from scipy import stats
 import glob, os, warnings
 warnings.filterwarnings('ignore')
 
-DATA_DIR = r"C:\Users\sercan\Desktop\ocean_pollution_project\data"
-OUT_DIR  = r"C:\Users\sercan\Desktop\ocean_pollution_project\output"
+DATA_DIR = r"C:\Users\sercan\Desktop\Projects\ocean_pollution_project\data"
+OUT_DIR  = r"C:\Users\sercan\Desktop\Projects\ocean_pollution_project\output"
 
 def sep(t): print(f"\n{'='*60}\n  {t}\n{'='*60}")
 

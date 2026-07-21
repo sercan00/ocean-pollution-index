@@ -3,7 +3,7 @@ import pandas as pd
 import xarray as xr
 import glob, os
 
-DATA_DIR = r"C:\Users\sercan\Desktop\ocean_pollution_project\data"
+DATA_DIR = r"C:\Users\sercan\Desktop\Projects\ocean_pollution_project\data"
 
 print("="*60)
 print("  UN POPULATION FILE")

@@ -1,6 +1,6 @@
 """Print exact current values for updating the website pages."""
 import pandas as pd, os
-OUT_DIR = r"C:\Users\sercan\Desktop\ocean_pollution_project\output"
+OUT_DIR = r"C:\Users\sercan\Desktop\Projects\ocean_pollution_project\output"
 m = pd.read_csv(os.path.join(OUT_DIR, "master_ocean_pollution.csv"))
 
 def g(region, col):
