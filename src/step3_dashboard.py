@@ -144,7 +144,7 @@ header p{{font-size:0.76rem;color:#8899bb;margin-top:2px}}
 <header>
   <div>
     <h1>🌊 Global Ocean Pollution Index</h1>
-    <p>30 water bodies &nbsp;·&nbsp; 9 data sources &nbsp;·&nbsp; Forecast to 2100</p>
+<p>35 water bodies &nbsp;·&nbsp; 12 data sources &nbsp;·&nbsp; Forecast to 2100</p>
   </div>
   <div class="ytoggle">
     <span class="ylabel">View year:</span>
@@ -206,26 +206,24 @@ header p{{font-size:0.76rem;color:#8899bb;margin-top:2px}}
 const MD = {mj};
 const CHART_META = {cmj};
 let CY = 2026;
-let SCEN = 0;       // policy reduction 0..1
+let SCEN = 0;
 let LM = [];
 let chart;
 
 const map = L.map('map',{{center:[20,10],zoom:2,minZoom:2,maxZoom:8}});
 setTimeout(function(){{ map.invalidateSize(); }}, 300);
 window.addEventListener('resize', function(){{ map.invalidateSize(); }});
-L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}.png',
-  {{attribution:'© OpenStreetMap © CARTO',subdomains:'abcd',maxZoom:19}}).addTo(map);
+L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png',
+  {{attribution:'© OpenStreetMap contributors',maxZoom:19}}).addTo(map);
 
-// Compute index for a given region at a year under current scenario.
-// SCEN ranges -1 (much worse) .. 0 (now) .. +1 (full action).
-// Positive SCEN reduces the growth rate; negative SCEN amplifies it.
+
 function project(base, growth, year){{
   const yrs = year - 2026;
   let effGrowth;
   if(SCEN >= 0){{
-    effGrowth = growth * (1 - SCEN);          // improvement: slow/stop growth
+    effGrowth = growth * (1 - SCEN);
   }} else {{
-    effGrowth = growth * (1 + Math.abs(SCEN)); // worsening: speed up growth
+    effGrowth = growth * (1 + Math.abs(SCEN));
   }}
   return base * Math.pow(1 + effGrowth, yrs);
 }}
@@ -289,14 +287,13 @@ function build(){{
 }}
 
 function confBadge(pct){{
-  // Colour-code how much of a region's score is from measured (not estimated) data
+
   let col = pct>=75 ? '#27ae60' : pct>=50 ? '#f1c40f' : pct>=25 ? '#e67e22' : '#e74c3c';
   let label = pct>=75 ? 'High' : pct>=50 ? 'Medium' : pct>=25 ? 'Low' : 'Very low';
   return `<span style="color:${{col}};font-weight:bold">${{pct}}% (${{label}})</span>`;
 }}
 
 function buildLeague(){{
-  // sort by current-year projected score
   const rows = MD.map(m=>({{
     region:m.region,
     v26:project(m.base,m.growth,2026),
